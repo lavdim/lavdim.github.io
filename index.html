@@ -1,84 +1,6088 @@
-<!DOCTYPE html>
-<html>
 
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="My test project : test tag line">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
-    <title>My test project</title>
-
-<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
-<script src="/javascripts/git.js" type="text/javascript"></script>
-<script type="text/javascript">
-    $(function() {
-        $("#opensource-projects").loadRepositories("lavdim");
-    });
-</script>
-  
-  </head>
-
-  <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/lavdim">View on GitHub</a>
-
-          <h1 id="project_title">My test project</h1>
-          <h2 id="project_tagline">test tag line</h2>
-
-        </header>
-    </div>
-
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-      <div id="opensource-projects"></div>
-        <h3>
-<a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a id="designer-templates" class="anchor" href="#designer-templates" aria-hidden="true"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a id="rather-drive-stick" class="anchor" href="#rather-drive-stick" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="https://help.github.com/pages">https://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-    </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
-
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml" 
+	xmlns:parrot="http://vocab.ctic.es/parrot#" 
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" 
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/" 
+	xmlns:dct="http://purl.org/dc/terms/" 
+	version="XHTML+RDFa 1.0" 
+>
+  <head typeof="parrot:Project">
+    <title>Ontology of the Steel Industry Case Study - Report generated by Parrot</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
 
+    <link rel="parrot:hasPrologue" href="#prologue" /> 
+    <link rel="parrot:hasAppendix" href="#appendix"/>
+    	    		    <link rel="parrot:readAsRDFOWLOntology" href="http://ontorule-project.eu/resources/steel-30.owl" />	    		    			    		    	    			    		    	    					
+    <link rel="shortcut icon" type="image/x-icon" href="http://ontorule-project.eu/parrot/images/favicon.ico" />
+    <!-- standalone --> 
+    <!--  <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/standalone/ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/themes/cupertino/jquery-ui.css" />  -->
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/themes/cupertino/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/report/css/base.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/report/css/custom.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/report/css/SemEx.css" /> 
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/report/jixedbar/jx.bar.css" /> 
+    <link rel="stylesheet" type="text/css" media="print" href="http://ontorule-project.eu/parrot/report/css/print.css" /> 
+
+  		    <link rel="stylesheet" type="text/css" media="screen,projection" href="http://ontorule-project.eu/parrot/report/css/technical.css" /> 
+  	  
+	        
+  </head>
+  <body>
+  
+
+<div id="header"> 
+<h1>Ontology of the Steel Industry Case Study</h1>
+<h2>
+ Technical report generated by <a href="https://bitbucket.org/fundacionctic/parrot"	title="go to Parrot project home page">Parrot</a>, 
+a RIF and OWL documentation service</h2> 
+</div>   <div id="content">
+	
+
+  		
+
+  		  <div id="prologue" about="#prologue" typeof="foaf:Document" class="hidden">
+	  <h1>Prologue</h1>
+	  </div>
+		
+
+
+	
+
+<div id ="toc" class="toc">
+<h1>Table of contents</h1>
+<!-- The list of ontologies, classes, properties, individuals, rules and rule sets goes here --> 
+
+<p><span class="parrot-element-ref parrot-ontology-ref">Ontologies (1):</span></p> 
+<p>
+		<a href="#anchor-2121990995">Ontology of the Steel Industry Case Study</a>
+	</p>
+
+
+<p><span class="parrot-element-ref parrot-class-ref">Classes (23):</span></p>
+<p>
+		<a href="#anchor2031938570">Action</a>
+	, 		<a href="#anchor-1643188967">Clinching</a>
+	, 		<a href="#anchor-896137821">Coil</a>
+	, 		<a href="#anchor2119251781">Defect</a>
+	, 		<a href="#anchor764840105">Dual-phase steel</a>
+	, 		<a href="#anchor-896016716">High-strength low-alloy steel</a>
+	, 		<a href="#anchor-2079782068">Intertitial free metallurgy steel</a>
+	, 		<a href="#anchor9310356">Mechanical defect</a>
+	, 		<a href="#anchor-1439471574">Mechanical phenomenon</a>
+	, 		<a href="#anchor-1999302888">Order</a>
+	, 		<a href="#anchor-1996721020">Parameter defect</a>
+	, 		<a href="#anchor-1347301797">Phenomenon</a>
+	, 		<a href="#anchor-1167877037">Product type</a>
+	, 		<a href="#anchor1277998087">Rephosphorised steel</a>
+	, 		<a href="#anchor1542855347">Sampling point</a>
+	, 		<a href="#anchor233401255">Skin-pass elongation defect</a>
+	, 		<a href="#anchor-1787493955">Skin-pass elongation phenomenon</a>
+	, 		<a href="#anchor1956056512">Surface aspect defect</a>
+	, 		<a href="#anchor-907940010">Surface aspect phenomenon</a>
+	, 		<a href="#anchor-539561137">Temperature defect</a>
+	, 		<a href="#anchor545682789">Temperature phenomenon</a>
+	, 		<a href="#anchor696959625">Yield strength defect</a>
+	, 		<a href="#anchor-1058269281">Yield strength phenomenon</a>
+	</p>
+
+
+<p><span class="parrot-element-ref parrot-property-ref">Properties (37):</span></p>
+<p>
+		<a href="#anchor-1346895894">action</a>
+	, 		<a href="#anchor-254241977">average flattener elongation</a>
+	, 		<a href="#anchor783752542">average skin-pass elongation</a>
+	, 		<a href="#anchor-657819658">average temperature</a>
+	, 		<a href="#anchor-1768706740">coil identifier</a>
+	, 		<a href="#anchor1558654840">coil property</a>
+	, 		<a href="#anchor1605239520">creator</a>
+	, 		<a href="#anchor-1691910824">date</a>
+	, 		<a href="#anchor-252354656">derives from</a>
+	, 		<a href="#anchor-37917585">flattener elongation</a>
+	, 		<a href="#anchor-7850453">has phenomenon</a>
+	, 		<a href="#anchor596697315">has sampling point</a>
+	, 		<a href="#anchor-1109158136">in coil</a>
+	, 		<a href="#anchor283322040">length scope</a>
+	, 		<a href="#anchor1975390249">location</a>
+	, 		<a href="#anchor-25542752">location of</a>
+	, 		<a href="#anchor-1969750216">order</a>
+	, 		<a href="#anchor-2136218318">phenomenon of</a>
+	, 		<a href="#anchor822151581">position</a>
+	, 		<a href="#anchor-1516254080">product type code</a>
+	, 		<a href="#anchor210974920">sampling point property</a>
+	, 		<a href="#anchor-1564573898">skin-pass elongation</a>
+	, 		<a href="#anchor-1236745492">skin-pass elongation maximum</a>
+	, 		<a href="#anchor-1236745254">skin-pass elongation minimum</a>
+	, 		<a href="#anchor631837696">steel grade</a>
+	, 		<a href="#anchor-1141765310">target parameter</a>
+	, 		<a href="#anchor-1022428898">temperature</a>
+	, 		<a href="#anchor727916548">temperature maximum</a>
+	, 		<a href="#anchor727916786">temperature minimum</a>
+	, 		<a href="#anchor-1060477873">thickness target</a>
+	, 		<a href="#anchor-651767242">weight maximum</a>
+	, 		<a href="#anchor-651767004">weight minimum</a>
+	, 		<a href="#anchor662688417">width target</a>
+	, 		<a href="#anchor1249883096">yield strength</a>
+	, 		<a href="#anchor-2099989512">yield strength lower tolerance</a>
+	, 		<a href="#anchor-2099989750">yield strength upper tolerance</a>
+	, 		<a href="#anchor414950667">zinc thickness target</a>
+	</p>
+
+
+<p><span class="parrot-element-ref parrot-individual-ref">Individuals (13):</span></p>
+<p>
+		<a href="#anchor-896257851">A200</a>
+	, 		<a href="#anchor-896229019">B102</a>
+	, 		<a href="#anchor-896229016">B105</a>
+	, 		<a href="#anchor-896199195">C114</a>
+	, 		<a href="#anchor-896199193">C116</a>
+	, 		<a href="#anchor-896199190">C119</a>
+	, 		<a href="#anchor-896170367">D012</a>
+	, 		<a href="#anchor-896170182">D071</a>
+	, 		<a href="#anchor-708856208">evaluation</a>
+	, 		<a href="#anchor-895961830">K012</a>
+	, 		<a href="#anchor651348198">Keep assignment</a>
+	, 		<a href="#anchor-858480319">repair</a>
+	, 		<a href="#anchor-1966489669">scrap</a>
+	</p>
+
+
+
+
+
+
+
+
+
+<hr />
+
+<p>
+<a href="#glossary">Glossary (63 entries)</a>
+</p>
+
+</div>	
+
+
+	<div class="toc" id="ontologies"> 
+	<h2>Ontologies</h2>
+	<p>
+	  	    	<a href="#anchor-2121990995">Ontology of the Steel Industry Case Study</a>
+	          </p>
+	</div>
+	
+		  <div class="details ontologies">
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-a88f3588e84c0a65260ca749f5bc9670" about="http://ontorule-project.eu/resources/steel-30">
+
+
+
+   <h3 id="anchor-2121990995"><span class="parrot-element-title parrot-ontology-title">Ontology of the Steel Industry Case Study</span>
+   <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Ontology">(Ontology)</span>
+  	  
+
+    <span class="menu"> 
+	  <span class="vci-menu">VC</span> 	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+      <p class="description">Ontology of the Steel Industry Case Study</p>
+  
+  <div> 
+
+          
+
+    <div class="vci"> 
+    <h4>Version Control information</h4> 
+    <dl> 
+    			
+				<dt>Version</dt>
+		<dd>Final version (2011-01-11)</dd>
+		
+		
+		
+				
+				<dt>Date</dt>
+		<dd class="metadata-icon date">2011-01-11</dd>
+				
+		
+					  
+				<dt>Creators</dt>
+				  <dd class="metadata-icon creator">Luis Polo</dd>
+				  <dd class="metadata-icon creator">Diego D&iacute;az</dd>
+								
+				<dt>Contributors</dt>
+				  <dd class="metadata-icon contributor">Diego Berrueta</dd>
+				  <dd class="metadata-icon contributor">Pablo Valledor</dd>
+				  <dd class="metadata-icon contributor">Emilio Rubiera</dd>
+		
+						
+				<dt>Publishers</dt>
+				
+				  <dd class="metadata-icon publisher">
+		  			<a href="http://ontorule-project.eu/" class="external-link">http://ontorule-project.eu/ </a>
+			  </dd>
+						
+				
+				
+    </dl> 
+    </div>
+    
+    
+      
+  
+        <div class="ti"> 
+    <h4>Definition</h4> 
+    
+    		<p>The <strong>URI</strong> of this ontology is <span><code>http://ontorule-project.eu/resources/steel-30</code></span></p>
+		<hr />
+	
+	    <table> 
+						<tr>
+		    <td><strong>Preferred Prefix</strong></td>
+		    <td><pre><code>steel</code></pre></td>
+		</tr>
+			</table>
+	    </div>
+  
+  
+    
+  
+  </div>
+</div></div>
+	
+
+	<div class="toc" id="classes">
+	<h2>Classes</h2>
+	<p>
+	  	    	<a href="#anchor2031938570">Action</a>
+	, 	  	    	<a href="#anchor-1643188967">Clinching</a>
+	, 	  	    	<a href="#anchor-896137821">Coil</a>
+	, 	  	    	<a href="#anchor2119251781">Defect</a>
+	, 	  	    	<a href="#anchor764840105">Dual-phase steel</a>
+	, 	  	    	<a href="#anchor-896016716">High-strength low-alloy steel</a>
+	, 	  	    	<a href="#anchor-2079782068">Intertitial free metallurgy steel</a>
+	, 	  	    	<a href="#anchor9310356">Mechanical defect</a>
+	, 	  	    	<a href="#anchor-1439471574">Mechanical phenomenon</a>
+	, 	  	    	<a href="#anchor-1999302888">Order</a>
+	, 	  	    	<a href="#anchor-1996721020">Parameter defect</a>
+	, 	  	    	<a href="#anchor-1347301797">Phenomenon</a>
+	, 	  	    	<a href="#anchor-1167877037">Product type</a>
+	, 	  	    	<a href="#anchor1277998087">Rephosphorised steel</a>
+	, 	  	    	<a href="#anchor1542855347">Sampling point</a>
+	, 	  	    	<a href="#anchor233401255">Skin-pass elongation defect</a>
+	, 	  	    	<a href="#anchor-1787493955">Skin-pass elongation phenomenon</a>
+	, 	  	    	<a href="#anchor1956056512">Surface aspect defect</a>
+	, 	  	    	<a href="#anchor-907940010">Surface aspect phenomenon</a>
+	, 	  	    	<a href="#anchor-539561137">Temperature defect</a>
+	, 	  	    	<a href="#anchor545682789">Temperature phenomenon</a>
+	, 	  	    	<a href="#anchor696959625">Yield strength defect</a>
+	, 	  	    	<a href="#anchor-1058269281">Yield strength phenomenon</a>
+		  	</p>
+	</div>
+	
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-f50b0977759083ececacd3bf8e3cfae3" about="http://ontorule-project.eu/resources/steel-30#Action">
+
+
+  <h3 id="anchor2031938570"> <a id="Action"></a><span class="parrot-element-title parrot-class-title">Action</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">This category comprises the actions to be done with the product after the system has completed its evaluation</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Action</code></span></p>
+		<hr />
+	
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#action"> action</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#evaluation"> evaluation</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#keepAssignment"> Keep assignment</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#repair"> repair</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#scrap"> scrap</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b168da51315276080b689b06e4338023" about="http://ontorule-project.eu/resources/steel-30#Clinching">
+
+
+  <h3 id="anchor-1643188967"> <a id="Clinching"></a><span class="parrot-element-title parrot-class-title">Clinching</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">Clinching steels are those obtained by a non-continuous method of joining whereby the points of joinage are produced by punching two or more steel sheets together simultaneously by means of a punch and die.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Clinching</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#K012"> K012</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-7a4439970aed3bab9f95b021fcde142e" about="http://ontorule-project.eu/resources/steel-30#Coil">
+
+
+  <h3 id="anchor-896137821"> <a id="Coil"></a><span class="parrot-element-title parrot-class-title">Coil</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">A coil is a physical object which is the metallurgical product to be analysed during the process.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Coil</code></span></p>
+		<hr />
+	
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#action"> action</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#avgFlattenerElongation"> average flattener elongation</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#avgSkinPassElongation"> average skin-pass elongation</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#avgTemperature"> average temperature</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#coilIdentifier"> coil identifier</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#coilProperty"> coil property</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#hasPhenomenon"> has phenomenon</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#hasSamplingPoint"> has sampling point</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#inCoil"> in coil</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#order"> order</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#phenomenonOf"> phenomenon of</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#steelGrade"> steel grade</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-754e2952cb0592ad1db843a6434b5bf" about="http://ontorule-project.eu/resources/steel-30#Defect">
+
+
+  <h3 id="anchor2119251781"> <a id="Defect"></a><span class="parrot-element-title parrot-class-title">Defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Defect</code></span></p>
+		<hr />
+	
+		<table>
+	
+		  <tr>
+	  <td>This class is a super class of</td>
+	  <td> 	  
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#SurfaceAspectDefect">            	<a href="#SurfaceAspectDefect"> Surface aspect defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#derivesFrom"> derives from</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#location"> location</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#locationOf"> location of</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-cd9aeccb10e17f936a76c48a9a5d36c0" about="http://ontorule-project.eu/resources/steel-30#DualPhase">
+
+
+  <h3 id="anchor764840105"> <a id="DualPhase"></a><span class="parrot-element-title parrot-class-title">Dual-phase steel</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">Dual-phase steel (DPA) is a high-strength steel that has a ferrite and martensitic microstructure. DPA starts as a low or medium carbon steel and is quenched from a temperature above A1 but below A3 on a continuous cooling transformation diagram. This results in a microstructure consisting of a soft ferrite matrix containing islands of martensite as the secondary phase (martensite increases the tensile strength).
+It features advantages such as low yield strength;low yield to tensile strength ratio (yield strength / tensile strength = 0.5); high initial strain hardening rates; good uniform elongation; high strain rate sensitivity (the faster it is crushed the more energy it absorbs); and good fatigue resistance.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#DualPhase</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#A200"> A200</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-de63e5421963a4e165e38f1a661cdd66" about="http://ontorule-project.eu/resources/steel-30#HSLA">
+
+
+  <h3 id="anchor-896016716"> <a id="HSLA"></a><span class="parrot-element-title parrot-class-title">High-strength low-alloy steel</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">High-strength low-alloy (HSLA) steel is a type of alloy steel that provides better mechanical properties or greater resistance to corrosion than carbon steel. HSLA steels vary from other steels in that they aren't made to meet a specific chemical composition, but rather to specific mechanical properties. They have a carbon content between 0.05&ndash;0.25% to retain formability and weldability.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#HSLA</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#D012"> D012</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#D071"> D071</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-def7fab804473b5abe58f5eb8ecc57f0" about="http://ontorule-project.eu/resources/steel-30#InterstitialFree">
+
+
+  <h3 id="anchor-2079782068"> <a id="InterstitialFree"></a><span class="parrot-element-title parrot-class-title">Intertitial free metallurgy steel</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">Steels designed to provide an excellent combination of drawability and mechanical strength based on their specific interstitial free (IF) metallurgy.  
+These steels are hardened by adding manganese, silicon and phosphorous in solid solution to the ferrite. The metallurgy of IF steels optimizes their drawability.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#InterstitialFree</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#B102"> B102</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#B105"> B105</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-5677c0d117314665a7e4192fde5d31e" about="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">
+
+
+  <h3 id="anchor9310356"> <a id="MechanicalDefect"></a><span class="parrot-element-title parrot-class-title">Mechanical defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">A defect having to do with the mechanical process.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#MechanicalDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Defect">            	<a href="#Defect"> Defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		  <tr>
+	  <td>This class is a super class of</td>
+	  <td> 	  
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ParameterDefect">            	<a href="#ParameterDefect"> Parameter defect</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#SkinPassElongationDefect">            	<a href="#SkinPassElongationDefect"> Skin-pass elongation defect</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#TemperatureDefect">            	<a href="#TemperatureDefect"> Temperature defect</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#YieldStrengthDefect">            	<a href="#YieldStrengthDefect"> Yield strength defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+		
+		
+		  <tr>
+	  <td>This class is a disjoint class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="owl:disjointWith" href="http://ontorule-project.eu/resources/steel-30#SurfaceAspectDefect">            	<a href="#SurfaceAspectDefect"> Surface aspect defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-60518990e1f42ef0f8181dbaa6c4df11" about="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">
+
+
+  <h3 id="anchor-1439471574"> <a id="MechanicalPhenomenon"></a><span class="parrot-element-title parrot-class-title">Mechanical phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil related to the mechanical process.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Phenomenon">            	<a href="#Phenomenon"> Phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		  <tr>
+	  <td>This class is a super class of</td>
+	  <td> 	  
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#SkinPassElongationPhenomenon">            	<a href="#SkinPassElongationPhenomenon"> Skin-pass elongation phenomenon</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#TemperaturePhenomenon">            	<a href="#TemperaturePhenomenon"> Temperature phenomenon</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#YieldStrengthPhenomenon">            	<a href="#YieldStrengthPhenomenon"> Yield strength phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+		
+		
+		  <tr>
+	  <td>This class is a disjoint class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="owl:disjointWith" href="http://ontorule-project.eu/resources/steel-30#SurfaceAspectPhenomenon">            	<a href="#SurfaceAspectPhenomenon"> Surface aspect phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-5fdd9a7923c734dda8a6d2f71008f0d0" about="http://ontorule-project.eu/resources/steel-30#Order">
+
+
+  <h3 id="anchor-1999302888"> <a id="Order"></a><span class="parrot-element-title parrot-class-title">Order</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An order defines the target specifications of the product. The order also specifies the tolerance allowed with respect to the target parameters.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Order</code></span></p>
+		<hr />
+	
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#order"> order</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-f330067514c2232b35eb1a6c8eb85b01" about="http://ontorule-project.eu/resources/steel-30#ParameterDefect">
+
+
+  <h3 id="anchor-1996721020"> <a id="ParameterDefect"></a><span class="parrot-element-title parrot-class-title">Parameter defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">It is a defect having to do with a deviation of the measured skin-pass elongation, flattener elongation or temperature from the specified values.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#ParameterDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-42f6a6902b3e739797ebc51e55043a5e" about="http://ontorule-project.eu/resources/steel-30#Phenomenon">
+
+
+  <h3 id="anchor-1347301797"> <a id="Phenomenon"></a><span class="parrot-element-title parrot-class-title">Phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil, based on the identified defects along the coil sampling points.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Phenomenon</code></span></p>
+		<hr />
+	
+		<table>
+	
+		  <tr>
+	  <td>This class is a super class of</td>
+	  <td> 	  
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">            	<a href="#MechanicalPhenomenon"> Mechanical phenomenon</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#SurfaceAspectPhenomenon">            	<a href="#SurfaceAspectPhenomenon"> Surface aspect phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#derivesFrom"> derives from</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#hasPhenomenon"> has phenomenon</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#phenomenonOf"> phenomenon of</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b90ae952a7499ad9157c2703e721f5d5" about="http://ontorule-project.eu/resources/steel-30#ProductType">
+
+
+  <h3 id="anchor-1167877037"> <a id="ProductType"></a><span class="parrot-element-title parrot-class-title">Product type</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">The type identifies the kind of steel, defined by a set of physical and chemical properties</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#ProductType</code></span></p>
+		<hr />
+	
+		<table>
+	
+		  <tr>
+	  <td>This class is a super class of</td>
+	  <td> 	  
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Clinching">            	<a href="#Clinching"> Clinching</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#DualPhase">            	<a href="#DualPhase"> Dual-phase steel</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#HSLA">            	<a href="#HSLA"> High-strength low-alloy steel</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#InterstitialFree">            	<a href="#InterstitialFree"> Intertitial free metallurgy steel</a>
+      </span>
+	  	  <span class="parrot-element-ref parrot-class-ref" rev="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Rephosphorised">            	<a href="#Rephosphorised"> Rephosphorised steel</a>
+      </span>
+	  	  </td>
+	  </tr>
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#productTypeCode"> product type code</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#steelGrade"> steel grade</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-16943d891f0af473b087b94a62dec5f0" about="http://ontorule-project.eu/resources/steel-30#Rephosphorised">
+
+
+  <h3 id="anchor1277998087"> <a id="Rephosphorised"></a><span class="parrot-element-title parrot-class-title">Rephosphorised steel</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">It is a kind of steel that contains phosphorus as its main alloying agent.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#Rephosphorised</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			
+				  <tr>
+		  <td>This class has individuals such as</td>
+		  <td>	  
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#C114"> C114</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#C116"> C116</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-individual-ref">            	<a href="#C119"> C119</a>
+      </span>
+		  		  </td>
+		  </tr>
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-9a783e4e2af3242d0694a0f965e6b917" about="http://ontorule-project.eu/resources/steel-30#SamplingPoint">
+
+
+  <h3 id="anchor1542855347"> <a id="SamplingPoint"></a><span class="parrot-element-title parrot-class-title">Sampling point</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">A sampling point is an abstract concept which represents a given location within a coil where some physical parameters are measured.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#SamplingPoint</code></span></p>
+		<hr />
+	
+		    
+  </div>
+  
+    <div class="inuse">
+  <h4>In use</h4>
+  		  
+   	    <table>
+	  			  <tr>
+		  <td>This class is used in</td>
+		  <td> 	  
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#flattenerElongation"> flattener elongation</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#hasSamplingPoint"> has sampling point</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#inCoil"> in coil</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#lengthScope"> length scope</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#location"> location</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#locationOf"> location of</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#position"> position</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#skinPassElongation"> skin-pass elongation</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#temperature"> temperature</a>
+      </span>
+		  		  <span class="parrot-element-ref parrot-property-ref">            	<a href="#yieldStrength"> yield strength</a>
+      </span>
+		  		  </td>
+		  </tr>
+				
+			
+			</table>
+	  </div>
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-11aca56027c6e2b504b6a53bda7e7c1b" about="http://ontorule-project.eu/resources/steel-30#SkinPassElongationDefect">
+
+
+  <h3 id="anchor233401255"> <a id="SkinPassElongationDefect"></a><span class="parrot-element-title parrot-class-title">Skin-pass elongation defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">A skin-pass elongation defect has to do with any deviation of the measured skin-pass elongation from the requirements for the product.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#SkinPassElongationDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-d8fda7b287c985b7ee21422fa49e3b5f" about="http://ontorule-project.eu/resources/steel-30#SkinPassElongationPhenomenon">
+
+
+  <h3 id="anchor-1787493955"> <a id="SkinPassElongationPhenomenon"></a><span class="parrot-element-title parrot-class-title">Skin-pass elongation phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil related to the skin-pass elongation.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#SkinPassElongationPhenomenon</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">            	<a href="#MechanicalPhenomenon"> Mechanical phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-a81b963d47da2437d7d867e066dd602f" about="http://ontorule-project.eu/resources/steel-30#SurfaceAspectDefect">
+
+
+  <h3 id="anchor1956056512"> <a id="SurfaceAspectDefect"></a><span class="parrot-element-title parrot-class-title">Surface aspect defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">A defect found in the surface of the coil.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#SurfaceAspectDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Defect">            	<a href="#Defect"> Defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		  <tr>
+	  <td>This class is a disjoint class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="owl:disjointWith" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-c1054aba3cb6268c8a232bcfd449244b" about="http://ontorule-project.eu/resources/steel-30#SurfaceAspectPhenomenon">
+
+
+  <h3 id="anchor-907940010"> <a id="SurfaceAspectPhenomenon"></a><span class="parrot-element-title parrot-class-title">Surface aspect phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil specifically on the surface of the product.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#SurfaceAspectPhenomenon</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#Phenomenon">            	<a href="#Phenomenon"> Phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		  <tr>
+	  <td>This class is a disjoint class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="owl:disjointWith" href="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">            	<a href="#MechanicalPhenomenon"> Mechanical phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b5078106579aff8f1155fbaf4b5d7bb" about="http://ontorule-project.eu/resources/steel-30#TemperatureDefect">
+
+
+  <h3 id="anchor-539561137"> <a id="TemperatureDefect"></a><span class="parrot-element-title parrot-class-title">Temperature defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">It is a defect having to do with temperature issues. At the exit of the furnace it is necessary to check the temperature ranges of the steel strip, depending on the maximum and minimum end of heating temperature set by the order (measured in &ordm;C) and the steel grade.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#TemperatureDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-fe638197a8ac62e9705d294b7d0da0f9" about="http://ontorule-project.eu/resources/steel-30#TemperaturePhenomenon">
+
+
+  <h3 id="anchor545682789"> <a id="TemperaturePhenomenon"></a><span class="parrot-element-title parrot-class-title">Temperature phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil related to the temperature.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#TemperaturePhenomenon</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">            	<a href="#MechanicalPhenomenon"> Mechanical phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-d46b45186c813c3b20a67834a79cf7c7" about="http://ontorule-project.eu/resources/steel-30#YieldStrengthDefect">
+
+
+  <h3 id="anchor696959625"> <a id="YieldStrengthDefect"></a><span class="parrot-element-title parrot-class-title">Yield strength defect</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">It is a mechanical defect having to do with the target yield strength. A defect of this category is identified if the yield strength is outside of the target range at any point.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#YieldStrengthDefect</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalDefect">            	<a href="#MechanicalDefect"> Mechanical defect</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+		  <div class="details classes">
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ae60cc5259dfaf744607d576fe59f6ef" about="http://ontorule-project.eu/resources/steel-30#YieldStrengthPhenomenon">
+
+
+  <h3 id="anchor-1058269281"> <a id="YieldStrengthPhenomenon"></a><span class="parrot-element-title parrot-class-title">Yield strength phenomenon</span>
+
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#Class">(OWL Class)</span> 
+	
+  	
+  
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span> 
+  </h3>
+  
+  
+
+      <p class="description">An effect detected in the coil related to the yield strength.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+			<p>The <strong>URI</strong> of this class is <span><code>http://ontorule-project.eu/resources/steel-30#YieldStrengthPhenomenon</code></span></p>
+		<hr />
+	
+		<table>
+		  <tr>
+	  <td>This class is a sub class of</td>
+	  <td> 
+	  	  <span class="parrot-element-ref parrot-class-ref" rel="rdfs:subClassOf" href="http://ontorule-project.eu/resources/steel-30#MechanicalPhenomenon">            	<a href="#MechanicalPhenomenon"> Mechanical phenomenon</a>
+      </span>
+	  	  </td>
+	  </tr>
+	
+		
+		
+		</table>
+		    
+  </div>
+  
+    
+    
+  </div>
+</div> 
+  </div>
+	
+	<div class="toc" id="properties">
+	<h2>Properties</h2>
+	<p>
+	  			<a href="#anchor-1346895894">action</a>
+	, 	  			<a href="#anchor-254241977">average flattener elongation</a>
+	, 	  			<a href="#anchor783752542">average skin-pass elongation</a>
+	, 	  			<a href="#anchor-657819658">average temperature</a>
+	, 	  			<a href="#anchor-1768706740">coil identifier</a>
+	, 	  			<a href="#anchor1558654840">coil property</a>
+	, 	  			<a href="#anchor1605239520">creator</a>
+	, 	  			<a href="#anchor-1691910824">date</a>
+	, 	  			<a href="#anchor-252354656">derives from</a>
+	, 	  			<a href="#anchor-37917585">flattener elongation</a>
+	, 	  			<a href="#anchor-7850453">has phenomenon</a>
+	, 	  			<a href="#anchor596697315">has sampling point</a>
+	, 	  			<a href="#anchor-1109158136">in coil</a>
+	, 	  			<a href="#anchor283322040">length scope</a>
+	, 	  			<a href="#anchor1975390249">location</a>
+	, 	  			<a href="#anchor-25542752">location of</a>
+	, 	  			<a href="#anchor-1969750216">order</a>
+	, 	  			<a href="#anchor-2136218318">phenomenon of</a>
+	, 	  			<a href="#anchor822151581">position</a>
+	, 	  			<a href="#anchor-1516254080">product type code</a>
+	, 	  			<a href="#anchor210974920">sampling point property</a>
+	, 	  			<a href="#anchor-1564573898">skin-pass elongation</a>
+	, 	  			<a href="#anchor-1236745492">skin-pass elongation maximum</a>
+	, 	  			<a href="#anchor-1236745254">skin-pass elongation minimum</a>
+	, 	  			<a href="#anchor631837696">steel grade</a>
+	, 	  			<a href="#anchor-1141765310">target parameter</a>
+	, 	  			<a href="#anchor-1022428898">temperature</a>
+	, 	  			<a href="#anchor727916548">temperature maximum</a>
+	, 	  			<a href="#anchor727916786">temperature minimum</a>
+	, 	  			<a href="#anchor-1060477873">thickness target</a>
+	, 	  			<a href="#anchor-651767242">weight maximum</a>
+	, 	  			<a href="#anchor-651767004">weight minimum</a>
+	, 	  			<a href="#anchor662688417">width target</a>
+	, 	  			<a href="#anchor1249883096">yield strength</a>
+	, 	  			<a href="#anchor-2099989512">yield strength lower tolerance</a>
+	, 	  			<a href="#anchor-2099989750">yield strength upper tolerance</a>
+	, 	  			<a href="#anchor414950667">zinc thickness target</a>
+		  	</p>
+	</div>
+	
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ab1e182591a43fb03736a4a6da919d75" about="http://ontorule-project.eu/resources/steel-30#action">
+
+
+  <h3 id="anchor-1346895894"> <a id="action"></a><span class="parrot-element-title parrot-property-title">action</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">This is the final assignment of a coil to an order (a customer)</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#action</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Action">            	<a href="#Action"> Action</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-dd0118df8dc1f5ef9bab2c11420ed3c7" about="http://ontorule-project.eu/resources/steel-30#avgFlattenerElongation">
+
+
+  <h3 id="anchor-254241977"> <a id="avgFlattenerElongation"></a><span class="parrot-element-title parrot-property-title">average flattener elongation</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#avgFlattenerElongation</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#coilProperty">            	<a href="#coilProperty"> coil property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ba9940889609d320649c61404c85b187" about="http://ontorule-project.eu/resources/steel-30#avgSkinPassElongation">
+
+
+  <h3 id="anchor783752542"> <a id="avgSkinPassElongation"></a><span class="parrot-element-title parrot-property-title">average skin-pass elongation</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#avgSkinPassElongation</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#coilProperty">            	<a href="#coilProperty"> coil property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-609984a78e02e8e6bb47400105996a09" about="http://ontorule-project.eu/resources/steel-30#avgTemperature">
+
+
+  <h3 id="anchor-657819658"> <a id="avgTemperature"></a><span class="parrot-element-title parrot-property-title">average temperature</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#avgTemperature</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#coilProperty">            	<a href="#coilProperty"> coil property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e020b1f7406b95d29cc5929a35567d35" about="http://ontorule-project.eu/resources/steel-30#coilIdentifier">
+
+
+  <h3 id="anchor-1768706740"> <a id="coilIdentifier"></a><span class="parrot-element-title parrot-property-title">coil identifier</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">Unique identifier of the product.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#coilIdentifier</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#integer">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23integer#anchor1607007030">xsd:integer</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#coilProperty">            	<a href="#coilProperty"> coil property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e52fb3ee1cbbb07cc4f33fcef665eaf1" about="http://ontorule-project.eu/resources/steel-30#coilProperty">
+
+
+  <h3 id="anchor1558654840"> <a id="coilProperty"></a><span class="parrot-element-title parrot-property-title">coil property</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#coilProperty</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+        
+        
+   
+    
+          <tr>
+      <td>This property is a super property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#avgFlattenerElongation">            	<a href="#avgFlattenerElongation"> average flattener elongation</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#avgSkinPassElongation">            	<a href="#avgSkinPassElongation"> average skin-pass elongation</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#avgTemperature">            	<a href="#avgTemperature"> average temperature</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#coilIdentifier">            	<a href="#coilIdentifier"> coil identifier</a>
+      </span>
+            </td>
+      </tr>
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-d8448f7de5238dcdf58a6a729dd44487" about="http://purl.org/dc/elements/1.1/creator">
+
+
+  <h3 id="anchor1605239520"><span class="parrot-element-title parrot-property-title">creator</span> (Property)
+  		  	
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#AnnotationProperty"></span><img class="annotation-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/annotation-property-24.png" alt="annotation property"/>
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://purl.org/dc/elements/1.1/creator</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	    	<strong>annotation</strong> property. 
+    	    	    	</p>
+    	<hr />
+    
+       </div>
+    
+      <div class="inuse">
+    <h4>In use</h4>
+    	    
+	        <p>This property has 2 occurrences</p>
+    
+        
+    
+    </div>
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-faeeb6444c2ed08c40ecc1880be289ca" about="http://purl.org/dc/elements/1.1/date">
+
+
+  <h3 id="anchor-1691910824"><span class="parrot-element-title parrot-property-title">date</span> (Property)
+  		  	
+			<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#AnnotationProperty"></span><img class="annotation-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/annotation-property-24.png" alt="annotation property"/>
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://purl.org/dc/elements/1.1/date</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	    	<strong>annotation</strong> property. 
+    	    	    	</p>
+    	<hr />
+    
+       </div>
+    
+      <div class="inuse">
+    <h4>In use</h4>
+    	    
+	        <p>This property has 1 occurrences</p>
+    
+        
+    
+    </div>
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ecc07d24749d6cc7da269b7fc4750bc6" about="http://ontorule-project.eu/resources/steel-30#derivesFrom">
+
+
+  <h3 id="anchor-252354656"> <a id="derivesFrom"></a><span class="parrot-element-title parrot-property-title">derives from</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">A given phenomenon derives from a set of defects.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#derivesFrom</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Phenomenon">            	<a href="#Phenomenon"> Phenomenon</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Defect">            	<a href="#Defect"> An imperfection or defect detected in the coil.
+</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-5e04c8c0286ba38bde91db1e2df36a58" about="http://ontorule-project.eu/resources/steel-30#flattenerElongation">
+
+
+  <h3 id="anchor-37917585"> <a id="flattenerElongation"></a><span class="parrot-element-title parrot-property-title">flattener elongation</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#flattenerElongation</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-3785149bac67206e585c4ad5358e23fb" about="http://ontorule-project.eu/resources/steel-30#hasPhenomenon">
+
+
+  <h3 id="anchor-7850453"> <a id="hasPhenomenon"></a><span class="parrot-element-title parrot-property-title">has phenomenon</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#hasPhenomenon</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#phenomenonOf">            	<a href="#phenomenonOf"> phenomenon of</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Phenomenon">            	<a href="#Phenomenon"> Phenomenon</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ead0ee2ccaa0daaeb4ec333eac68be42" about="http://ontorule-project.eu/resources/steel-30#hasSamplingPoint">
+
+
+  <h3 id="anchor596697315"> <a id="hasSamplingPoint"></a><span class="parrot-element-title parrot-property-title">has sampling point</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#hasSamplingPoint</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#inCoil">            	<a href="#inCoil"> in coil</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-d74dcab1d5450183312c8332f137bdaf" about="http://ontorule-project.eu/resources/steel-30#inCoil">
+
+
+  <h3 id="anchor-1109158136"> <a id="inCoil"></a><span class="parrot-element-title parrot-property-title">in coil</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">This property links sampling points, used by the system to measure some physical parameters such as the yield strength, to the product (a given coil).</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#inCoil</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#hasSamplingPoint">            	<a href="#hasSamplingPoint"> has sampling point</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-1eff3d3499ba97dd1a71fef7192e4f7c" about="http://ontorule-project.eu/resources/steel-30#lengthScope">
+
+
+  <h3 id="anchor283322040"> <a id="lengthScope"></a><span class="parrot-element-title parrot-property-title">length scope</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">Length of the coil in which the sampling applies. It is associated to a single coil sampling point.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#lengthScope</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-a72271434bfc500430bafca2a4c8629f" about="http://ontorule-project.eu/resources/steel-30#location">
+
+
+  <h3 id="anchor1975390249"> <a id="location"></a><span class="parrot-element-title parrot-property-title">location</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">A defect is detected comparing coil data with order specifications in sampling points. Thus a defect is relative to a position in the coil.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#location</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#locationOf">            	<a href="#locationOf"> location of</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Defect">            	<a href="#Defect"> Defect</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-200dc625bb38fcd56f79e6b667182724" about="http://ontorule-project.eu/resources/steel-30#locationOf">
+
+
+  <h3 id="anchor-25542752"> <a id="locationOf"></a><span class="parrot-element-title parrot-property-title">location of</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#locationOf</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#location">            	<a href="#location"> location</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Defect">            	<a href="#Defect"> An imperfection or defect detected in the coil.
+</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-f623ac4df28a281fba8ee74978230fe4" about="http://ontorule-project.eu/resources/steel-30#order">
+
+
+  <h3 id="anchor-1969750216"> <a id="order"></a><span class="parrot-element-title parrot-property-title">order</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">This is the initial assignment of a coil to an order (a customer). It will define the production goal to be validated by the rule system.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#order</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Order">            	<a href="#Order"> Order</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-69b37e6918684caf38e031c9e56c2146" about="http://ontorule-project.eu/resources/steel-30#phenomenonOf">
+
+
+  <h3 id="anchor-2136218318"> <a id="phenomenonOf"></a><span class="parrot-element-title parrot-property-title">phenomenon of</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#phenomenonOf</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+          <tr>
+      <td>This property is a inverse property of</td>
+      <td><span class="parrot-element-ref parrot-property-ref" rel="owl:inverseOf" href="http://ontorule-project.eu/resources/steel-30#hasPhenomenon">            	<a href="#hasPhenomenon"> has phenomenon</a>
+      </span></td>
+      </tr>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Phenomenon">            	<a href="#Phenomenon"> Phenomenon</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b36327a62b4d58fcf414b721db193b04" about="http://ontorule-project.eu/resources/steel-30#position">
+
+
+  <h3 id="anchor822151581"> <a id="position"></a><span class="parrot-element-title parrot-property-title">position</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">Position of the coil where a sampling is performed. There is a sampling point each 10 meters from the head to the tail of the coil, so the position indicates the distance in meters from the head to a given sampling point.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#position</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b66f58e1a7486adad7565059d24a4cb7" about="http://ontorule-project.eu/resources/steel-30#productTypeCode">
+
+
+  <h3 id="anchor-1516254080"> <a id="productTypeCode"></a><span class="parrot-element-title parrot-property-title">product type code</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  <span class="inuse-menu">In use</span> 	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#productTypeCode</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#string">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23string#anchor-487667913">xsd:string</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+      <div class="inuse">
+    <h4>In use</h4>
+    	    
+	        <p>This property has 9 occurrences</p>
+    
+        
+    
+    </div>
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-2cfb68b5ec9e8446c91ff51ed7061d75" about="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">
+
+
+  <h3 id="anchor210974920"> <a id="samplingPointProperty"></a><span class="parrot-element-title parrot-property-title">sampling point property</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#samplingPointProperty</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+        
+        
+   
+    
+          <tr>
+      <td>This property is a super property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#flattenerElongation">            	<a href="#flattenerElongation"> flattener elongation</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#lengthScope">            	<a href="#lengthScope"> length scope</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#position">            	<a href="#position"> position</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#skinPassElongation">            	<a href="#skinPassElongation"> skin-pass elongation</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#temperature">            	<a href="#temperature"> temperature</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#yieldStrength">            	<a href="#yieldStrength"> yield strength</a>
+      </span>
+            </td>
+      </tr>
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-eee56f92970f93797953cab3410b8496" about="http://ontorule-project.eu/resources/steel-30#skinPassElongation">
+
+
+  <h3 id="anchor-1564573898"> <a id="skinPassElongation"></a><span class="parrot-element-title parrot-property-title">skin-pass elongation</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#skinPassElongation</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-4566587892cb8af1081547f3b99d61f6" about="http://ontorule-project.eu/resources/steel-30#skinPassElongationMax">
+
+
+  <h3 id="anchor-1236745492"> <a id="skinPassElongationMax"></a><span class="parrot-element-title parrot-property-title">skin-pass elongation maximum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#skinPassElongationMax</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e7daa89a17326c8849cdc464c4dac8a3" about="http://ontorule-project.eu/resources/steel-30#skinPassElongationMin">
+
+
+  <h3 id="anchor-1236745254"> <a id="skinPassElongationMin"></a><span class="parrot-element-title parrot-property-title">skin-pass elongation minimum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#skinPassElongationMin</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-a1ce5f1c0e405c1a41b5e981447294c3" about="http://ontorule-project.eu/resources/steel-30#steelGrade">
+
+
+  <h3 id="anchor631837696"> <a id="steelGrade"></a><span class="parrot-element-title parrot-property-title">steel grade</span> (Property)
+  		  	
+		<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#ObjectProperty"></span><img class="object-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/object-property-24.png" alt="object property"/>	
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#steelGrade</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	    	<strong>object</strong> property.  
+    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Coil">            	<a href="#Coil"> Coil</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://ontorule-project.eu/resources/steel-30#ProductType">            	<a href="#ProductType"> Product type</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-7f80b2d10e06b3aa231525f4aa66b0a1" about="http://ontorule-project.eu/resources/steel-30#targetParameter">
+
+
+  <h3 id="anchor-1141765310"> <a id="targetParameter"></a><span class="parrot-element-title parrot-property-title">target parameter</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	        
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#targetParameter</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#Order">            	<a href="#Order"> Order</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+        
+        
+   
+    
+          <tr>
+      <td>This property is a super property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#skinPassElongationMax">            	<a href="#skinPassElongationMax"> skin-pass elongation maximum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#skinPassElongationMin">            	<a href="#skinPassElongationMin"> skin-pass elongation minimum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#temperatureMax">            	<a href="#temperatureMax"> temperature maximum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#temperatureMin">            	<a href="#temperatureMin"> temperature minimum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#thicknessTarget">            	<a href="#thicknessTarget"> thickness target</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#weightMax">            	<a href="#weightMax"> weight maximum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#weightMin">            	<a href="#weightMin"> weight minimum</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#widthTarget">            	<a href="#widthTarget"> width target</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#yieldStrengthMin">            	<a href="#yieldStrengthMin"> yield strength lower tolerance</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#yieldStrengthMax">            	<a href="#yieldStrengthMax"> yield strength upper tolerance</a>
+      </span>
+            <span class="parrot-element-ref parrot-property-ref" rev="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#zincThicknessTarget">            	<a href="#zincThicknessTarget"> zinc thickness target</a>
+      </span>
+            </td>
+      </tr>
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-73a115935305d8bc8707dbe7d5ac869a" about="http://ontorule-project.eu/resources/steel-30#temperature">
+
+
+  <h3 id="anchor-1022428898"> <a id="temperature"></a><span class="parrot-element-title parrot-property-title">temperature</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#temperature</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-26ccf0bbb0b3fa3a1fdcb35fe4d4d05f" about="http://ontorule-project.eu/resources/steel-30#temperatureMax">
+
+
+  <h3 id="anchor727916548"> <a id="temperatureMax"></a><span class="parrot-element-title parrot-property-title">temperature maximum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#temperatureMax</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b4f38ac7d61b4505c208d950fb645c" about="http://ontorule-project.eu/resources/steel-30#temperatureMin">
+
+
+  <h3 id="anchor727916786"> <a id="temperatureMin"></a><span class="parrot-element-title parrot-property-title">temperature minimum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#temperatureMin</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-ff34ac67bcde81296b3e63f235e18208" about="http://ontorule-project.eu/resources/steel-30#thicknessTarget">
+
+
+  <h3 id="anchor-1060477873"> <a id="thicknessTarget"></a><span class="parrot-element-title parrot-property-title">thickness target</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#thicknessTarget</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-fba0b81800a60ddb56c28a21cf38d535" about="http://ontorule-project.eu/resources/steel-30#weightMax">
+
+
+  <h3 id="anchor-651767242"> <a id="weightMax"></a><span class="parrot-element-title parrot-property-title">weight maximum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#weightMax</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-30226f5945d185cdb16019ecf6b7016c" about="http://ontorule-project.eu/resources/steel-30#weightMin">
+
+
+  <h3 id="anchor-651767004"> <a id="weightMin"></a><span class="parrot-element-title parrot-property-title">weight minimum</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#weightMin</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-9c25c900ed71ead0cf8eae8592c605e4" about="http://ontorule-project.eu/resources/steel-30#widthTarget">
+
+
+  <h3 id="anchor662688417"> <a id="widthTarget"></a><span class="parrot-element-title parrot-property-title">width target</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#widthTarget</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-d19e10b012a04ed660d68f515f56ab52" about="http://ontorule-project.eu/resources/steel-30#yieldStrength">
+
+
+  <h3 id="anchor1249883096"> <a id="yieldStrength"></a><span class="parrot-element-title parrot-property-title">yield strength</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+      <p class="description">This parameter is calculated in every sampling point along the coil. So the yieldStrength is associated with a given sampling point to allow the comparison with the yieldStrength value of the target specified in the order. Deviations from the target imply a defect in the coil.</p>
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#yieldStrength</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+           <tr>
+            <td>The domain of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:domain" href="http://ontorule-project.eu/resources/steel-30#SamplingPoint">            	<a href="#SamplingPoint"> Sampling point</a>
+      </span>
+      	  </td>
+      </tr>
+     
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#samplingPointProperty">            	<a href="#samplingPointProperty"> sampling point property</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-1e75e36a5594ccf590ce7741cb01b056" about="http://ontorule-project.eu/resources/steel-30#yieldStrengthMin">
+
+
+  <h3 id="anchor-2099989512"> <a id="yieldStrengthMin"></a><span class="parrot-element-title parrot-property-title">yield strength lower tolerance</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#yieldStrengthMin</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e69f9600148623bead382f6fb35135df" about="http://ontorule-project.eu/resources/steel-30#yieldStrengthMax">
+
+
+  <h3 id="anchor-2099989750"> <a id="yieldStrengthMax"></a><span class="parrot-element-title parrot-property-title">yield strength upper tolerance</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#yieldStrengthMax</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+		<div class="details properties">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-dc1486a999b399f41247a76cd0bde65b" about="http://ontorule-project.eu/resources/steel-30#zincThicknessTarget">
+
+
+  <h3 id="anchor414950667"> <a id="zincThicknessTarget"></a><span class="parrot-element-title parrot-property-title">zinc thickness target</span> (Property)
+  		  	
+	<span rel="rdf:type" href="http://www.w3.org/2002/07/owl#DatatypeProperty"></span><img class="datatype-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/datatype-property-24.png" alt="datatype property"/>		
+			
+		   	
+   	    <span rel="rdf:type" href="http://www.w3.org/2002/07/owl#FunctionalProperty"></span><img class="functional-property-icon icon" src="http://ontorule-project.eu/parrot/report/images/functional-property.png" alt="functional property"/>    
+    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+    <div class="ti"> 
+  <h4>Definition</h4> 
+
+			<p>The <strong>URI</strong> of this property is <span><code>http://ontorule-project.eu/resources/steel-30#zincThicknessTarget</code></span></p>
+	   
+        	<p>This property is a  
+
+    	    	    	<strong>functional</strong>,      
+    	    	    	    	    	    	    
+    	    	<strong>data</strong> property.    
+    	    	    	    	    	</p>
+    	<hr />
+    
+        <table>
+    
+ 
+      
+
+    
+          <tr>
+             <td>The range of this property is</td>
+      	  <td>
+            <span class="parrot-element-ref parrot-class-ref" rel="rdfs:range" href="http://www.w3.org/2001/XMLSchema#float">              <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23float#anchor-1829093740">xsd:float</a>
+      </span>
+      	  </td>
+      </tr>
+        
+        
+   
+          <tr>
+      <td>This property is a sub property of</td>
+      <td>
+            <span class="parrot-element-ref parrot-property-ref" rel="rdfs:subPropertyOf" href="http://ontorule-project.eu/resources/steel-30#targetParameter">            	<a href="#targetParameter"> target parameter</a>
+      </span>
+            </td>
+      </tr>
+    
+       
+    
+        </table>
+       </div>
+    
+    
+    
+    
+  </div>
+</div>   </div>
+	
+	<div class="toc" id="individuals">
+	<h2>Individuals</h2>
+	<p>
+		  	<a href="#anchor-896257851">A200</a>
+	, 		  	<a href="#anchor-896229019">B102</a>
+	, 		  	<a href="#anchor-896229016">B105</a>
+	, 		  	<a href="#anchor-896199195">C114</a>
+	, 		  	<a href="#anchor-896199193">C116</a>
+	, 		  	<a href="#anchor-896199190">C119</a>
+	, 		  	<a href="#anchor-896170367">D012</a>
+	, 		  	<a href="#anchor-896170182">D071</a>
+	, 		  	<a href="#anchor-708856208">evaluation</a>
+	, 		  	<a href="#anchor-895961830">K012</a>
+	, 		  	<a href="#anchor651348198">Keep assignment</a>
+	, 		  	<a href="#anchor-858480319">repair</a>
+	, 		  	<a href="#anchor-1966489669">scrap</a>
+			</p>
+	</div>	
+
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-111f04a8b374479187bf9773d12a5027" about="http://ontorule-project.eu/resources/steel-30#A200">
+
+
+   <h3 id="anchor-896257851"> <a id="A200"></a><span class="parrot-element-title parrot-individual-title">A200</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#A200</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#A200"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896257851">A200</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 A200 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e6555bf272aae16d453db5941854db6f" about="http://ontorule-project.eu/resources/steel-30#B102">
+
+
+   <h3 id="anchor-896229019"> <a id="B102"></a><span class="parrot-element-title parrot-individual-title">B102</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#B102</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#B102"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896229019">B102</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 B102 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-f1788c5cc9144c08994e2625715e0aeb" about="http://ontorule-project.eu/resources/steel-30#B105">
+
+
+   <h3 id="anchor-896229016"> <a id="B105"></a><span class="parrot-element-title parrot-individual-title">B105</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#B105</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#B105"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896229016">B105</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 B105 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-679fbc316ee73d01cf4eb186a0f17dce" about="http://ontorule-project.eu/resources/steel-30#C114">
+
+
+   <h3 id="anchor-896199195"> <a id="C114"></a><span class="parrot-element-title parrot-individual-title">C114</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#C114</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#C114"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896199195">C114</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 C114 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-38147fe21f6e3c23cc1d316f87e176fc" about="http://ontorule-project.eu/resources/steel-30#C116">
+
+
+   <h3 id="anchor-896199193"> <a id="C116"></a><span class="parrot-element-title parrot-individual-title">C116</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#C116</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#C116"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896199193">C116</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 C116 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-b46d98ae956f18cae604eed9fccd260b" about="http://ontorule-project.eu/resources/steel-30#C119">
+
+
+   <h3 id="anchor-896199190"> <a id="C119"></a><span class="parrot-element-title parrot-individual-title">C119</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#C119</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#C119"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896199190">C119</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 C119 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-3f0bb9a8351e82ff3b3f247a7b688bb3" about="http://ontorule-project.eu/resources/steel-30#D012">
+
+
+   <h3 id="anchor-896170367"> <a id="D012"></a><span class="parrot-element-title parrot-individual-title">D012</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#D012</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#D012"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896170367">D012</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 D012 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e4be0839ca7f374e8751d7901d7a958d" about="http://ontorule-project.eu/resources/steel-30#D071">
+
+
+   <h3 id="anchor-896170182"> <a id="D071"></a><span class="parrot-element-title parrot-individual-title">D071</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#D071</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#D071"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-896170182">D071</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 D071 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-e68da8438cbe39bbbf0364252506d8a2" about="http://ontorule-project.eu/resources/steel-30#evaluation">
+
+
+   <h3 id="anchor-708856208"> <a id="evaluation"></a><span class="parrot-element-title parrot-individual-title">evaluation</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+      <p class="description">The coil is sent to experts when it is not clear whether it meets order requirements</p>
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#evaluation</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#evaluation"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-7c2a4b06cd7d29d2611c9193b988da0f" about="http://ontorule-project.eu/resources/steel-30#K012">
+
+
+   <h3 id="anchor-895961830"> <a id="K012"></a><span class="parrot-element-title parrot-individual-title">K012</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#K012</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#K012"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+		<hr />
+	<table>
+		<tr>
+	<td><a href="#anchor-895961830">K012</a></td>
+	<td>      <a class="parrot-link" href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#productTypeCode">steel:productTypeCode</a>
+</td>
+	<td>
+	 K012 	 </td>
+	</tr> 
+		</table>
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-2a7fd16d709074e5d491ebb4d7345120" about="http://ontorule-project.eu/resources/steel-30#keepAssignment">
+
+
+   <h3 id="anchor651348198"> <a id="keepAssignment"></a><span class="parrot-element-title parrot-individual-title">Keep assignment</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+        <p><em>{{No description available}}</em> <img class="icon-info-description" src="http://ontorule-project.eu/parrot/report/images/info.png" alt="info"/></p> 
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#keepAssignment</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#keepAssignment"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-209ecefc16dc72155965ee5234feb128" about="http://ontorule-project.eu/resources/steel-30#repair">
+
+
+   <h3 id="anchor-858480319"> <a id="repair"></a><span class="parrot-element-title parrot-individual-title">repair</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+      <p class="description">When the quality of coil is low but it could be repaired, it is sent again to the production line.</p>
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#repair</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#repair"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+		<div class="details individuals">
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="term" id="md5-660619d032c7cbb0801041fad1731d77" about="http://ontorule-project.eu/resources/steel-30#scrap">
+
+
+   <h3 id="anchor-1966489669"> <a id="scrap"></a><span class="parrot-element-title parrot-individual-title">scrap</span> (Individual)
+    	    
+
+    <span class="menu"> 
+	  	  <span class="ti-menu">Definition</span> 	  	      </span>   </h3>
+  
+  
+
+      <p class="description">When the quality of the coil is very low, it is sent to scrap</p>
+    
+  <div>
+  
+  
+  	<div class="ti"> 
+	<h4>Definition</h4> 
+	
+			<p>The <strong>URI</strong> of this individual is <span><code>http://ontorule-project.eu/resources/steel-30#scrap</code></span>       <a href="http://ontorule-project.eu/parrot/?documentUri=http://ontorule-project.eu/resources/steel-30#scrap"><img src="http://ontorule-project.eu/parrot/report/images/parrot.png" alt="Parrot" /></a>
+</p> 
+		
+		
+	
+		
+	</div>	
+    
+  
+    	
+  </div>
+</div>   </div>
+	
+
+
+
+
+
+
+	
+
+
+<h2><a id="glossary"></a>Glossary</h2>
+<dl>
+
+<dt>Action</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor2031938570">  Action</a>
+      </span></dd>
+<dt>An imperfection or defect detected in the coil.
+</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor2119251781">  Defect</a>
+      </span></dd>
+<dt>Clinching</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1643188967">  Clinching</a>
+      </span></dd>
+<dt>Coil</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-896137821">  Coil</a>
+      </span></dd>
+<dt>Defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor2119251781">  Defect</a>
+      </span></dd>
+<dt>Dual-phase steel</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor764840105">  Dual-phase steel</a>
+      </span></dd>
+<dt>High-strength low-alloy steel</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-896016716">  High-strength low-alloy steel</a>
+      </span></dd>
+<dt>Intertitial free metallurgy steel</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-2079782068">  Intertitial free metallurgy steel</a>
+      </span></dd>
+<dt>Keep assignment</dt>
+	<dd><span class="parrot-element-ref parrot-individual-ref">            	 <a href="#anchor651348198">  Keep assignment</a>
+      </span></dd>
+<dt>Mechanical defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor9310356">  Mechanical defect</a>
+      </span></dd>
+<dt>Mechanical phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1439471574">  Mechanical phenomenon</a>
+      </span></dd>
+<dt>Order</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1999302888">  Order</a>
+      </span></dd>
+<dt>Parameter defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1996721020">  Parameter defect</a>
+      </span></dd>
+<dt>Phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1347301797">  Phenomenon</a>
+      </span></dd>
+<dt>Product type</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1167877037">  Product type</a>
+      </span></dd>
+<dt>Rephosphorised steel</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor1277998087">  Rephosphorised steel</a>
+      </span></dd>
+<dt>Sampling point</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor1542855347">  Sampling point</a>
+      </span></dd>
+<dt>Skin-pass elongation defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor233401255">  Skin-pass elongation defect</a>
+      </span></dd>
+<dt>Skin-pass elongation phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1787493955">  Skin-pass elongation phenomenon</a>
+      </span></dd>
+<dt>Surface aspect defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor1956056512">  Surface aspect defect</a>
+      </span></dd>
+<dt>Surface aspect phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-907940010">  Surface aspect phenomenon</a>
+      </span></dd>
+<dt>Temperature defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-539561137">  Temperature defect</a>
+      </span></dd>
+<dt>Temperature phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor545682789">  Temperature phenomenon</a>
+      </span></dd>
+<dt>Yield strength defect</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor696959625">  Yield strength defect</a>
+      </span></dd>
+<dt>Yield strength phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-class-ref">            	 <a href="#anchor-1058269281">  Yield strength phenomenon</a>
+      </span></dd>
+<dt>action</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1346895894">  action</a>
+      </span></dd>
+<dt>average flattener elongation</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-254241977">  average flattener elongation</a>
+      </span></dd>
+<dt>average skin-pass elongation</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor783752542">  average skin-pass elongation</a>
+      </span></dd>
+<dt>average temperature</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-657819658">  average temperature</a>
+      </span></dd>
+<dt>coil identifier</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1768706740">  coil identifier</a>
+      </span></dd>
+<dt>coil property</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor1558654840">  coil property</a>
+      </span></dd>
+<dt>derives from</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-252354656">  derives from</a>
+      </span></dd>
+<dt>evaluation</dt>
+	<dd><span class="parrot-element-ref parrot-individual-ref">            	 <a href="#anchor-708856208">  evaluation</a>
+      </span></dd>
+<dt>flattener elongation</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-37917585">  flattener elongation</a>
+      </span></dd>
+<dt>has phenomenon</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-7850453">  has phenomenon</a>
+      </span></dd>
+<dt>has sampling point</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor596697315">  has sampling point</a>
+      </span></dd>
+<dt>in coil</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1109158136">  in coil</a>
+      </span></dd>
+<dt>length scope</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor283322040">  length scope</a>
+      </span></dd>
+<dt>location</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor1975390249">  location</a>
+      </span></dd>
+<dt>location of</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-25542752">  location of</a>
+      </span></dd>
+<dt>order</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1969750216">  order</a>
+      </span></dd>
+<dt>phenomenon of</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-2136218318">  phenomenon of</a>
+      </span></dd>
+<dt>position</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor822151581">  position</a>
+      </span></dd>
+<dt>product type code</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1516254080">  product type code</a>
+      </span></dd>
+<dt>repair</dt>
+	<dd><span class="parrot-element-ref parrot-individual-ref">            	 <a href="#anchor-858480319">  repair</a>
+      </span></dd>
+<dt>sampling point property</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor210974920">  sampling point property</a>
+      </span></dd>
+<dt>scrap</dt>
+	<dd><span class="parrot-element-ref parrot-individual-ref">            	 <a href="#anchor-1966489669">  scrap</a>
+      </span></dd>
+<dt>skin-pass elongation</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1564573898">  skin-pass elongation</a>
+      </span></dd>
+<dt>skin-pass elongation maximum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1236745492">  skin-pass elongation maximum</a>
+      </span></dd>
+<dt>skin-pass elongation minimum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1236745254">  skin-pass elongation minimum</a>
+      </span></dd>
+<dt>steel grade</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor631837696">  steel grade</a>
+      </span></dd>
+<dt>target parameter</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1141765310">  target parameter</a>
+      </span></dd>
+<dt>temperature</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1022428898">  temperature</a>
+      </span></dd>
+<dt>temperature maximum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor727916548">  temperature maximum</a>
+      </span></dd>
+<dt>temperature minimum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor727916786">  temperature minimum</a>
+      </span></dd>
+<dt>thickness target</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-1060477873">  thickness target</a>
+      </span></dd>
+<dt>weight maximum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-651767242">  weight maximum</a>
+      </span></dd>
+<dt>weight minimum</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-651767004">  weight minimum</a>
+      </span></dd>
+<dt>width target</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor662688417">  width target</a>
+      </span></dd>
+<dt>yield strength</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor1249883096">  yield strength</a>
+      </span></dd>
+<dt>yield strength lower tolerance</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-2099989512">  yield strength lower tolerance</a>
+      </span></dd>
+<dt>yield strength upper tolerance</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor-2099989750">  yield strength upper tolerance</a>
+      </span></dd>
+<dt>zinc thickness target</dt>
+	<dd><span class="parrot-element-ref parrot-property-ref">            	 <a href="#anchor414950667">  zinc thickness target</a>
+      </span></dd>
+
+</dl>
+	
+
+  		  <div id="appendix" about="#appendix" typeof="foaf:Document" class="hidden">
+	  <h1>Appendix</h1>
+	  </div>
+		
+
+<div id="footer"> 
+  <p>This document has been generated by <a rel="dct:creator" href="https://bitbucket.org/fundacionctic/parrot">Parrot</a>, a tool created by <a href="http://www.fundacionctic.org/">Fundaci&oacute;n CTIC</a>. <a href="https://bitbucket.org/fundacionctic/parrot/">Source code is available</a>.</p>
+</div>   </div>
+  
+
+<div id="bottom-bar"> 
+        <ul> 
+            <li title="Go to top"><a href="#"><img src="http://ontorule-project.eu/parrot/report/images/top.png" alt="Go to top" /></a></li> 
+        </ul> 
+        <span class="jx-separator-left"></span> 
+        <ul> 
+		            <li title="Ontologies"><a href="#ontologies"><img src="http://ontorule-project.eu/parrot/report/images/icon-ontology-16.png" alt="Ontologies" /></a></li> 
+				
+		            <li title="Classes"><a href="#classes"><img src="http://ontorule-project.eu/parrot/report/images/icon-class-16.png" alt="Classes" /></a></li> 
+				
+		            <li title="Properties"><a href="#properties"><img src="http://ontorule-project.eu/parrot/report/images/icon-property-16.png" alt="Properties" /></a></li> 
+				
+					<li title="Individuals"><a href="#individuals"><img src="http://ontorule-project.eu/parrot/report/images/icon-individual-16.png" alt="Individuals" /></a></li> 
+				
+				
+		        </ul> 
+        <span class="jx-separator-left"></span>        
+        <ul> 
+			<li title="Expand/Collapse all" ><a href="#" id="openCloseAll"><img src="http://ontorule-project.eu/parrot/report/images/block.png" alt="Expand/Collapse all"/></a></li> 
+        </ul> 
+  		<span class="jx-separator-left"></span>
+
+				
+  		<span class="jx-separator-right"></span>
+
+
+   		<ul class="jx-bar-button-right">
+		  <li title="Help"><a href="http://ontorule-project.eu/parrot/help"><img src="http://ontorule-project.eu/parrot/report/images/help.png" alt="Help" /></a></li>
+        </ul>
+        
+   		<span class="jx-separator-right"></span>
+    
+</div>   
+  
+
+	<!-- Feedback -->
+	<div>
+	<img id="feedback" src="http://ontorule-project.eu/parrot/images/feedback.png" width="30" height="100" alt="feedback" /> 
+	<div id="feedback-dialog" title="Give us some feedback">
+		<p><img src="http://ontorule-project.eu/parrot/images/bug.png" alt="bug"></img> <a href="https://bitbucket.org/fundacionctic/parrot/issues/">Report a bug </a></p>
+		<p><img src="http://ontorule-project.eu/parrot/images/heart.png" alt="request"></img> <a href="https://bitbucket.org/fundacionctic/parrot/issues/">Request a feature</a></p>
+		<p><img src="http://ontorule-project.eu/parrot/images/contact.png" alt="contact"></img> <a href="https://bitbucket.org/fundacionctic/parrot/wiki/Home#!contact">Contact us</a></p>
+	</div>
+	</div>
+  <!-- standalone --> 
+  <!-- <script type="text/javascript" src="http://ontorule-project.eu/parrot/standalone/ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> --> 
+  <!-- <script type="text/javascript" src="http://ontorule-project.eu/parrot/standalone/ajax.googleapis.com/ajax/libs/jqueryui/1.8.11/jquery-ui.min.js"></script> --> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> 
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="http://ontorule-project.eu/parrot/javascript/feedback.jQuery.js"></script>
+  
+  <script type="text/javascript" src="http://ontorule-project.eu/parrot/report/js/jquery.corner.js"></script> 
+  <script type="text/javascript" src="http://ontorule-project.eu/parrot/report/jixedbar/jquery.jixedbar.min.js"></script> 
+  <script type="text/javascript" src="http://ontorule-project.eu/parrot/report/js/jquery.qtip-1.0.js"></script> 
+  <script type="text/javascript" src="http://ontorule-project.eu/parrot/report/js/javascript.js"></script> 
+
+  	<script type="text/javascript" src="http://ontorule-project.eu/parrot/report/js/technical.js"></script> 
+  
+  <script type="text/javascript">
+	/* <![CDATA[ */
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-8820144-1']);
+	_gaq.push(['_trackPageview']);
+	
+	(function() {
+	  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+	/* ]]> */
+  </script>
   </body>
 </html>
