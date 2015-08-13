@@ -1,0 +1,91 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>P-D1 Use slash URIs</TITLE>
+<META NAME="description" CONTENT="P-D1 Use slash URIs">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="next" HREF="node29.html">
+<LINK REL="previous" HREF="node27.html">
+<LINK REL="up" HREF="node27.html">
+<LINK REL="next" HREF="node29.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html498"
+  HREF="node29.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html496"
+  HREF="node27.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html490"
+  HREF="node27.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html499"
+  HREF="node29.html">P-D2 Use hash URIs</A>
+<B> Up:</B> <A NAME="tex2html497"
+  HREF="node27.html">Dereferenceability</A>
+<B> Previous:</B> <A NAME="tex2html491"
+  HREF="node27.html">Dereferenceability</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H4><A NAME="SECTION00043110000000000000">
+P-D1 Use slash URIs</A>
+</H4> 
+When the client request a resource from server by providing its URIs, the server response will be <I>303 see other</I>.
+Slash URI should be used when dealing with large datasets. 
+This makes the server to response only with requested resource. 
+An example of using slash URIs is as follows:
+
+<P>
+In Mobivoc<A NAME="tex2html63"
+  HREF="footnode.html#foot434"><SUP>19</SUP></A> vocabulary the URI that identifies the ChargingPoint resource is:
+
+<P>
+<I>http://purl.org/net/mobivoc/ChargingPoint</I>
+
+<P>
+The URI of turtle representation of above resource should be:
+
+<P>
+<I>http://purl.org/net/mobivoc/ChargingPoint.ttl</I>
+
+<P>
+and URI of html representation should be:
+
+<P>
+<I>http://purl.org/net/mobivoc/ChargingPoint.html</I>
+
+<P>
+<BR>
+In order to get information about ChargingPoint, the client provides URI and specify request type.
+In turn server response will be <I>303 see other</I> by redirecting to appropriate representation.
+
+<P>
+<BR><HR>
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>

@@ -1,0 +1,73 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>P-M2 Multilinguality for other languages</TITLE>
+<META NAME="description" CONTENT="P-M2 Multilinguality for other languages">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="previous" HREF="node33.html">
+<LINK REL="up" HREF="node32.html">
+<LINK REL="next" HREF="node35.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html556"
+  HREF="node35.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html554"
+  HREF="node32.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html550"
+  HREF="node33.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html557"
+  HREF="node35.html">Documentation</A>
+<B> Up:</B> <A NAME="tex2html555"
+  HREF="node32.html">Multilinguality</A>
+<B> Previous:</B> <A NAME="tex2html551"
+  HREF="node33.html">P-M1 Use English as</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H4><A NAME="SECTION00044020000000000000">
+P-M2 Multilinguality for other languages</A>
+</H4> In order to add another language, use another line adding the same format for every element. 
+The following example illustrates this practice with translations for the class <I>SupplyChain</I>.
+
+<P>
+<PRE>
+scor:SupplyChain rdf:type owl:Class ;
+    rdfs:label   "SupplyChain"@en;
+    rdfs:comment "A Supply Chain is a ..."@en ;
+    rdfs:label   "Lieferkette"@de;
+    rdfs:comment "Eine Lieferkette ist ..."@de.
+</PRE> 
+This approach should be followed with all the elements starting from the basics ones like <TT>rdfs:label</TT> and <TT>rdfs:comment</TT> but also for the external annotation properties (i.e. <TT>skos:prefLabel</TT>). 
+
+<P>
+<BR><HR>
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>

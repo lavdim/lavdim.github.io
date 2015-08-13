@@ -1,0 +1,325 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>ANALYSIS OF WIDELY USED VOCABULARIES</TITLE>
+<META NAME="description" CONTENT="ANALYSIS OF WIDELY USED VOCABULARIES">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="next" HREF="node4.html">
+<LINK REL="previous" HREF="node2.html">
+<LINK REL="up" HREF="paper.html">
+<LINK REL="next" HREF="node4.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html182"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html180"
+  HREF="paper.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html174"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html183"
+  HREF="node4.html">COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES</A>
+<B> Up:</B> <A NAME="tex2html181"
+  HREF="paper.html">Critical Aspects of Collaborative</A>
+<B> Previous:</B> <A NAME="tex2html175"
+  HREF="node2.html">METHOD</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00030000000000000000"></A>
+<A NAME="sec:vocab-analysis"></A>
+<BR>
+ANALYSIS OF WIDELY USED VOCABULARIES
+</H1>
+
+<P>
+In order to compile a list of the 20 most widely used vocabularies, which should be analyzed,  we did twofold.
+Firstly, we looked for recognized ontologies that have a good documentation, dereferenceability and are used by independent data providers<A NAME="tex2html6"
+  HREF="footnode.html#foot399"><SUP>3</SUP></A>.
+This led to six very popular ontologies.
+Secondly, we used the <I> Linked Open Vocabularies</I> (LOV)<A NAME="tex2html8"
+  HREF="footnode.html#foot401"><SUP>4</SUP></A> web page that provides details about the frequency of reuse for each vocabulary. 
+We extended the list with the 14 most reused vocabularies which contain classes. 
+We considered these as the most successful vocabularies that build the ground for our analysis, which we call <I>authoritative vocabularies</I>.
+
+<P>
+The main purpose was to identify their common features and extract best practices of vocabulary development.
+In this regard, we wanted to understand important aspects of vocabulary creation such as reuse, internationalization, documentation and naming as well as the implicit structure of these vocabularies (e.g. use of logical axioms, property domain/range definitions). 
+
+<P>
+With respect to <B>Reuse</B>, 80% of the vocabularies make use of vocabulary elements defined elsewhere and 57% reuse elements from at least two external ontologies.
+This shows a considerable presence of the reuse aspect in the studied cases.
+
+<P>
+One of the most important aspects of <B>Internationalization</B> (I18n) is the support for multi-linguality. 
+In vocabularies this can be implemented by providing textual values for properties such as <TT>rdfs:label</TT>, <TT>rdfs:comment</TT> in different languages (using different language tags for RDF string literals).
+In 71% of the vocabularies we encountered explicit English literals (<I>@en</I>), but only in two (i.e. 9.5%) we found a translation of the terms into other languages. 
+In the remaining 29% of the cases, there were no explicit language tags used at all. 
+Consequently, despite I18n being important for existing ontologies we discovered that the common practice currently is to support only English.
+
+<P>
+<B>Documentation</B> refers to the addition of human readable labels and descriptions (using the properties <TT>rdfs:label</TT>, <TT>rdfs:comment</TT>) to the vocabulary elements (i.e. classes, properties and individuals).
+We encountered that <TT>rdfs:label</TT> or <TT>rdfs:comment</TT> are present in 86% of the cases.
+It is worth noting that the combination of the two above mentioned elements with <TT>rdfs:isDefinedBy</TT> is used with a frequency of 57%. 
+Only in one case (i.e. 5%) we did not find any form of documentation.
+This shows that documentation (i.e. <TT>rdfs:label</TT>, <TT>rdfs:comment</TT> for commenting, and <TT>rdfs:isDefinedBy</TT> for linking definitions) is widely used by existing vocabularies. 
+
+<P>
+Another important practice in vocabulary creation is the convention for <B>Naming</B> elements.
+The <I>CamelCase</I> notation was with 62% of the cases the most used one. 
+In all other cases (i.e. 38%) no homogeneous naming convention could be identified.
+A combination of CamelCase notation, underscore or dash sign were used instead.
+
+<P>
+<BR><P></P>
+<DIV ALIGN="CENTER">
+<FONT SIZE="-2">  
+  <A NAME="tab:vocabs"></A>	</FONT>
+<DIV ALIGN="CENTER"><FONT SIZE="-2">	</FONT><A NAME="68"></A>
+<TABLE CELLPADDING=3 BORDER="1">
+<CAPTION><STRONG>Table:</STRONG>
+Widely used Vocabularies</CAPTION>
+<TR><TH ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">
+  <B>Name</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2"><B>Prefix</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2"><B>Domain</B> </FONT></TH>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Dublin Core ontology Terms - <FONT SIZE="-2"><TT><A NAME="tex2html11"
+  HREF="http://purl.org/dc/terms/">http://purl.org/dc/terms/</A></TT>  </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>dcterms</I>  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2"> General metadata terms (i.e. Title, Creator, Date, Subject, etc).  </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2"> 
+	
+	Schema.org - <FONT SIZE="-2"><TT><A NAME="tex2html12"
+  HREF="http://schema.org">http://schema.org</A></TT>  </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2"> <I>schema</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2"> Broad schema of concepts (i.e. Creative Works, Media Objects, Events, Organization, Person, etc). </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Friend Of A Friend - <FONT SIZE="-2"><TT><A NAME="tex2html13"
+  HREF="http://xmlns.com/foaf/0.1/">http://xmlns.com/foaf/0.1/</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>foaf</I>  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Terms related to Persons (i.e. Agent, Document, Organization, etc). </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">GoodRelations	 - <FONT SIZE="-2"><TT><A NAME="tex2html14"
+  HREF="http://purl.org/goodrelations/v1">http://purl.org/goodrelations/v1</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	gr </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	E-Commerce related terms (i.e. Products, Services, Locations, etc).  </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Socially Interconnected Online Communities ontology - <FONT SIZE="-2"><TT><A NAME="tex2html15"
+  HREF="http://rdfs.org/sioc/ns#">http://rdfs.org/sioc/ns#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>sioc</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Aspects of online community sites (i.e. Users, Posts, Forums, etc). </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Description of a Project - <FONT SIZE="-2"><TT><A NAME="tex2html16"
+  HREF="http://usefulinc.com/ns/doap#">http://usefulinc.com/ns/doap#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>doap</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Terms for Software Projects, specifically for Open Source Projects (i.e. Version, Specification, Repository, etc).  </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Data Cube Vocabulary - <FONT SIZE="-2"><TT><A NAME="tex2html17"
+  HREF="http://purl.org/linked-data/cube#">http://purl.org/linked-data/cube#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>qb</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Statistic data (i.e. Dimensions, Attributes, Measures, etc).  </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Music Ontology - <FONT SIZE="-2"><TT><A NAME="tex2html18"
+  HREF="http://purl.org/ontology/mo/">http://purl.org/ontology/mo/</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>mo</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Terms related to music (i.e. Artists, Albums, Tracks, etc). </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Creative Commons schema - <FONT SIZE="-2"><TT><A NAME="tex2html19"
+  HREF="http://creativecommons.org/ns">http://creativecommons.org/ns</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>cc</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Terms for describing copyright licenses (i.e. License Properties, Work Properties, etc).	</FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Vocabulary of Interlinked Datasets - <FONT SIZE="-2"><TT><A NAME="tex2html20"
+  HREF="http://rdfs.org/ns/void#">http://rdfs.org/ns/void#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	<I>void</I> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Metadata about RDF datasets (i.e. Dataset, Linkset, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">GeoNames - <FONT SIZE="-2"><TT><A NAME="tex2html21"
+  HREF="http://www.geonames.org/ontology">http://www.geonames.org/ontology</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	gn </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Geospatial semantic information (i.e. Population, PostalCode, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Simple Knowledge Organization System Namespace - <FONT SIZE="-2"><TT><A NAME="tex2html22"
+  HREF="http://www.w3.org/2004/02/skos/core#">http://www.w3.org/2004/02/skos/core#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	skos </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Common data model for sharing and linking knowledge organization systems.	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">MarineTLO ontology - <FONT SIZE="-2"><TT><A NAME="tex2html23"
+  HREF="http://www.ics.forth.gr/isl/ontology/MarineTLO/">http://www.ics.forth.gr/isl/ontology/MarineTLO/</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	marinetlo </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Marine domain (i.e. Species, Marine Animal, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Linking Open Descriptions of Events <BR><FONT SIZE="-2"><TT><A NAME="tex2html24"
+  HREF="http://linkedevents.org/ontology/2010-10-07/rdfxml/">http://linkedevents.org/ontology/2010-10-07/rdfxml/</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	lode </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Descriptions of historical events.	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Event Ontology - <FONT SIZE="-2"><TT><A NAME="tex2html25"
+  HREF="http://purl.org/NET/c4dm/event.owl">http://purl.org/NET/c4dm/event.owl</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	event </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Describes reified events (i.e. Event, location, time, active agents, ect).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">W3C PROVenance Interchange - <FONT SIZE="-2"><TT><A NAME="tex2html26"
+  HREF="http://www.w3.org/ns/prov#">http://www.w3.org/ns/prov#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	prov </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Provenance Data Model (i.e. like activity, entity, agents). </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Bibliographic Ontology - <FONT SIZE="-2"><TT><A NAME="tex2html27"
+  HREF="http://purl.org/ontology/bibo/">http://purl.org/ontology/bibo/</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	bibo </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Citations and bibliographic references (i.e. quotes, books, articles, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Time Ontology - <FONT SIZE="-2"><TT><A NAME="tex2html28"
+  HREF="http://www.w3.org/2006/time#">http://www.w3.org/2006/time#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	time </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Temporal entities (i.e. hours, days, time zones, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Asset Description Metadata Schema - <FONT SIZE="-2"><TT><A NAME="tex2html29"
+  HREF="http://www.w3.org/ns/adms#">http://www.w3.org/ns/adms#</A></TT> </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	adms </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Assets and reference data (i.e. code lists, taxonomies, dictionaries, etc).	 </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=200><FONT SIZE="-2">Organization Ontology - <FONT SIZE="-2"><TT><A NAME="tex2html30"
+  HREF="http://www.w3.org/ns/org#">http://www.w3.org/ns/org#</A></TT>  </FONT></FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=25><FONT SIZE="-2">
+	org </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=225><FONT SIZE="-2">
+	Biographical information of persons (i.e. Birth Event, Death Event).	</FONT></TD>
+</TR>
+<TR><TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE></DIV>
+</DIV>
+<BR>
+
+<P>
+We performed an statistical analysis regarding the inclusion of <B>domain and range axioms</B> for properties. 
+First, we tested the data to check for the normal distribution. 
+For this purpose, we used the <I>Shapiro-Wilk</I> test over the observations of the object properties, domain and range axioms. 
+We encountered that the data do not follow a normal distribution for these variables.
+Our hypothesis was that there is a correlation in the obtained data regarding the amount of object properties and the domain and range axioms. 
+In order to check for a correlation, we computed the <I>Spearman</I> rank coefficient.
+For the amount of object properties and domain as well as range axioms we obtained a value of 0.91 and 0.95 respectively.
+This indicates a strong correlation between object properties as well as domain and range axioms.
+The results for various vocabularies are illustrated in fig:objectPropDomain and fig:objectPropRange.
+The y-axis is transformed to log scale for a better comprehension. 
+We performed the same process between data properties and domain as well as range axioms.
+In this case, we obtained 0.93 for both.
+These observations favor the conclusion that object properties and data properties should contain domain and range axioms. 
+We also calculate the percentage for <B>inverse properties</B> (60%) and <B>class disjointness</B> (50%). 
+These data indicate that the above mentioned axioms should be more carefully analyzed regarding the domain but are still important when building a vocabulary. 
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:objectPropDomain"></A><A NAME="118"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure:</STRONG>
+Relation of the amount of object properties and domain axioms.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">	[width=]images/ObjectPropDomain.pdf</DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:objectPropRange"></A><A NAME="125"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure:</STRONG>
+Relation of the amount of object properties and range axioms.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER">	
+<embed src="images/ObjectPropRange.pdf" width="800px" height="560px"></DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html182"
+  HREF="node4.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html180"
+  HREF="paper.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html174"
+  HREF="node2.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html183"
+  HREF="node4.html">COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES</A>
+<B> Up:</B> <A NAME="tex2html181"
+  HREF="paper.html">Critical Aspects of Collaborative</A>
+<B> Previous:</B> <A NAME="tex2html175"
+  HREF="node2.html">METHOD</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>

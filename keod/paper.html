@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Critical Aspects of Collaborative Vocabulary Development</TITLE>
+<META NAME="description" CONTENT="Critical Aspects of Collaborative Vocabulary Development">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="next" HREF="node1.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html98"
+  HREF="node1.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A>
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up_g.png">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev_g.png">
+<BR>
+<B> Next:</B> <A NAME="tex2html99"
+  HREF="node1.html">INTRODUCTION</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<P>
+
+<P>
+
+<P>
+
+<P>
+
+    <H1 ALIGN=CENTER>Critical Aspects of Collaborative Vocabulary Development</H1>
+    <P ALIGN=CENTER><STRONG>Irl&#225;n Grangel-Gonz&#225;lez, Lavdim Halilaj, G&#246;khan Coskun and S&#246;ren Auer</br>
+
+
+    </STRONG></P>
+    <p ALIGN=CENTER>Enterprise Information Systems, University of Bonn, Germany</p>
+    <P ALIGN=CENTER><P ALIGN=CENTER><FONT SIZE=-1><A NAME="tex2html1"
+        HREF="mailto:{grangel, halilaj, coskun, auer}@cs.uni-bonn.de">{grangel, halilaj, coskun, auer}@cs.uni-bonn.de</A></FONT></P>
+        <BR><P><P ALIGN=LEFT><FONT SIZE=-1>Key words and phrases: Collaborative vocabulary development, collaborative ontology engineering.</FONT></P>
+
+<H3>Abstract:</H3>
+<DIV>
+A major bottleneck for a wider deployment and use of ontologies and knowledge engineering techniques is the cumbersome and inefficient collaboration support for vocabulary and ontology authoring and curation.
+We argue, that collaboration and version control techniques (e.g. Git, continuous integration) established for software engineering, can be successfully applied for ontology engineering too.
+However, successful collaborative vocabulary and ontology engineering requires guidelines and best-practices to organize the collaboration with regard to the aspects documentation, internationalization, naming, structure, reuse and evaluation.
+In this article, we collect a comprehensive library of guidelines and best-practices.
+We empirically analyze a number of popular vocabulary and ontology development efforts with regard to their use of the guidelines and best-practices.
+Inspired by this analysis we proposed a set of practices to address the above mentioned aspects.
+These practices can improve the communication of the team and, as a result, leverage the development process.
+</DIV>
+<P>
+
+<P>
+
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"></A>
+
+<UL>
+<LI><A NAME="tex2html100"
+  HREF="node1.html">INTRODUCTION</A>
+<LI><A NAME="tex2html101"
+  HREF="node2.html">METHOD</A>
+<LI><A NAME="tex2html102"
+  HREF="node3.html">ANALYSIS OF WIDELY USED VOCABULARIES</A>
+<LI><A NAME="tex2html103"
+  HREF="node4.html">COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES</A>
+<UL>
+<LI><A NAME="tex2html104"
+  HREF="node5.html">Reuse</A>
+<UL>
+<LI><A NAME="tex2html105"
+  HREF="node6.html">P-R1 Reuse of authoritative vocabularies</A>
+<LI><A NAME="tex2html106"
+  HREF="node7.html">P-R2 Reuse of non-authoritative vocabularies</A>
+<LI><A NAME="tex2html107"
+  HREF="node8.html">P-R3 Avoid semantic clashes</A>
+<LI><A NAME="tex2html108"
+  HREF="node9.html">P-R4 Individual resource reuse</A>
+<LI><A NAME="tex2html109"
+  HREF="node10.html">P-R5 Vocabulary module reuse</A>
+<LI><A NAME="tex2html110"
+  HREF="node11.html">P-R6 Reuse of actual resources</A>
+<LI><A NAME="tex2html111"
+  HREF="node12.html">P-R7 Establishing alignments with existing vocabularies</A>
+</UL>
+<LI><A NAME="tex2html112"
+  HREF="node13.html">Vocabulary Structure</A>
+<UL>
+<LI><A NAME="tex2html113"
+  HREF="node14.html">P-S1 One file for the whole vocabulary</A>
+<LI><A NAME="tex2html114"
+  HREF="node15.html">P-S2 Multiple files</A>
+<LI><A NAME="tex2html115"
+  HREF="node16.html">P-S3 Multiple files and folders</A>
+<LI><A NAME="tex2html116"
+  HREF="node17.html">P-S4 Separation of TBox and ABox</A>
+</UL>
+<LI><A NAME="tex2html117"
+  HREF="node18.html">Naming Conventions</A>
+<UL>
+<LI><A NAME="tex2html118"
+  HREF="node19.html">P-N1 Concepts as single nouns</A>
+<LI><A NAME="tex2html119"
+  HREF="node20.html">P-N2 Properties as verb senses</A>
+<LI><A NAME="tex2html120"
+  HREF="node21.html">P-N3 Short names</A>
+<LI><A NAME="tex2html121"
+  HREF="node22.html">P-N4 Logical and short names for namespaces</A>
+<LI><A NAME="tex2html122"
+  HREF="node23.html">P-N5 Regular space as word delimiters for labeling elements</A>
+<LI><A NAME="tex2html123"
+  HREF="node24.html">P-N6 Avoid the use of conjunctions and or words with ambiguous meanings</A>
+<LI><A NAME="tex2html124"
+  HREF="node25.html">P-N7 Use positive names</A>
+<LI><A NAME="tex2html125"
+  HREF="node26.html">P-N8 Respect the names for registered products and company names</A>
+<LI><A NAME="tex2html126"
+  HREF="node27.html">Dereferenceability</A>
+<UL>
+<LI><A NAME="tex2html127"
+  HREF="node28.html">P-D1 Use slash URIs</A>
+<LI><A NAME="tex2html128"
+  HREF="node29.html">P-D2 Use hash URIs</A>
+<LI><A NAME="tex2html129"
+  HREF="node30.html">P-D3 Use combination between slash and hash URIs</A>
+<LI><A NAME="tex2html130"
+  HREF="node31.html">P-D4 Configure server to provide content negotiation</A>
+</UL>
+</UL>
+<LI><A NAME="tex2html131"
+  HREF="node32.html">Multilinguality</A>
+<UL>
+<LI><A NAME="tex2html132"
+  HREF="node33.html">P-M1 Use English as the main language</A>
+<LI><A NAME="tex2html133"
+  HREF="node34.html">P-M2 Multilinguality for other languages</A>
+</UL>
+<LI><A NAME="tex2html134"
+  HREF="node35.html">Documentation</A>
+<UL>
+<LI><A NAME="tex2html135"
+  HREF="node36.html">P-Do1 Use of rdfs:label</A>
+<LI><A NAME="tex2html136"
+  HREF="node37.html">P-Do2 Use of rdfs:comment</A>
+<LI><A NAME="tex2html137"
+  HREF="node38.html">P-Do3 Generate human-readable documentation</A>
+</UL>
+<LI><A NAME="tex2html138"
+  HREF="node39.html">Validation</A>
+<UL>
+<LI><A NAME="tex2html139"
+  HREF="node40.html">P-V1 Syntax validation</A>
+<LI><A NAME="tex2html140"
+  HREF="node41.html">P-V2 Code-Smell checking</A>
+<LI><A NAME="tex2html141"
+  HREF="node42.html">P-V3 Consistency checking</A>
+<LI><A NAME="tex2html142"
+  HREF="node43.html">P-V4 Linked Data validation</A>
+</UL>
+<LI><A NAME="tex2html143"
+  HREF="node44.html">Authoring</A>
+<UL>
+<LI><A NAME="tex2html144"
+  HREF="node45.html">P-A1 Domain and range definitions for properties</A>
+<LI><A NAME="tex2html145"
+  HREF="node46.html">P-A2 Avoid inverse properties</A>
+<LI><A NAME="tex2html146"
+  HREF="node47.html">P-A3 Use of class disjointness</A>
+<LI><A NAME="tex2html147"
+  HREF="node48.html">Utilization of SKOS Vocabulary</A>
+<UL>
+<LI><A NAME="tex2html148"
+  HREF="node49.html">P-A4 Provide <TT>skos:prefLabel</TT> to complement the labeling of concepts</A>
+<LI><A NAME="tex2html149"
+  HREF="node50.html">P-A5 Use <TT>skos:altLabel</TT> to describe variations of the concept</A>
+</UL>
+</UL>
+</UL>
+<BR>
+<LI><A NAME="tex2html150"
+  HREF="node51.html">RELATED WORK</A>
+<LI><A NAME="tex2html151"
+  HREF="node52.html">CONCLUSION AND FUTURE WORK</A>
+<LI><A NAME="tex2html152"
+  HREF="node53.html">Bibliography</A>
+<LI><A NAME="tex2html153"
+  HREF="node54.html">About this document ...</A>
+</UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html98"
+  HREF="node1.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A>
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up_g.png">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev_g.png">
+<BR>
+<B> Next:</B> <A NAME="tex2html99"
+  HREF="node1.html">INTRODUCTION</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>

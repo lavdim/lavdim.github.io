@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>P-R7 Establishing alignments with existing vocabularies</TITLE>
+<META NAME="description" CONTENT="P-R7 Establishing alignments with existing vocabularies">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="previous" HREF="node11.html">
+<LINK REL="up" HREF="node5.html">
+<LINK REL="next" HREF="node13.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html323"
+  HREF="node13.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html321"
+  HREF="node5.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html317"
+  HREF="node11.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html324"
+  HREF="node13.html">Vocabulary Structure</A>
+<B> Up:</B> <A NAME="tex2html322"
+  HREF="node5.html">Reuse</A>
+<B> Previous:</B> <A NAME="tex2html318"
+  HREF="node11.html">P-R6 Reuse of actual</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H4><A NAME="SECTION00041070000000000000">
+P-R7 Establishing alignments with existing vocabularies</A>
+</H4> (Opposite of P-R6) Instead of the strong semantic commitment of reusing identifiers from non-authoritative vocabularies, alignments using <TT>owl:sameAs</TT>, <TT>owl:equivalentClass</TT>, <TT>owl:equivalentProperty</TT>, <TT>rdfs:subClassOf</TT>, <TT>rdfs:subPropertyOf</TT> can be established.
+
+<P>
+With the goal to clarify some of the proposed practices we set the following example. 
+We want to reuse the term <I>Person</I>. 
+Then, we start by using the statistics provided by LOV for this term. 
+<BR><P></P>
+<DIV ALIGN="CENTER">
+<FONT SIZE="-2">  
+  <A NAME="tab:reuse"></A>	</FONT>
+<DIV ALIGN="CENTER"><FONT SIZE="-2">	</FONT><A NAME="387"></A>
+<TABLE CELLPADDING=3 BORDER="1">
+<CAPTION><STRONG>Table:</STRONG>
+Reuse table for term <I>Person</I></CAPTION>
+<TR><TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2">
+  <B>Terms</B> 
+	</FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><B>Occurrences</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><B>Datasets</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><B>Reused by</B> 
+	</FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><B>Documented</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> <B>Naming Conventions</B> </FONT></TH>
+<TH ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> <B>Multilinguality</B>
+	</FONT></TH>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><TT>foaf:Person</TT>    </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 2,320,027  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 72 </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 307 </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> No </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><TT>npg:Person</TT>     </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0          </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0   </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> No </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> Yes </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><TT>bbccore:Person</TT> </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0          </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 0   </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> No </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> Yes </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><TT>schema:Person</TT>  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 980,153    </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 2  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 44  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> No </FONT></TD>
+</TR>
+<TR><TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"><TT>akt:Person</TT>     </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 3,183,315  </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 23 </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> 5   </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> No </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=75><FONT SIZE="-2"> Yes </FONT></TD>
+<TD ALIGN="LEFT" VALIGN="TOP" WIDTH=50><FONT SIZE="-2"> No </FONT></TD>
+</TR>
+<TR><TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+<TD></TD>
+</TR>
+</TABLE></DIV>
+</DIV>
+<BR>
+
+<P>
+The tab:reuse	clearly shows that the best two candidates for reusing are <TT>foaf:Person</TT> and <TT>schema:Person</TT>.
+In this case, there is a significant amount of occurrences for <TT>akt:Person</TT> but it is only reused by other 5 vocabularies.
+Also, it does not belong to the authoritative vocabularies.  
+In this case we should chose between our two best ranked candidates. 
+In order to do this, we should check in the ontology that will be reused, not only the ranked values but also if (1) the term is minimally documented (i.e. the use of <TT>rdfs:label</TT> and <TT>rdfs:comment</TT> or <TT>skos:prefLabel</TT> and <TT>skos:definition</TT>) ; (2) the term follows some naming conventions (i.e. CamelNotation or other notation used consistently) and (3) the term is annotated at least in English (i.e. the use of <TT>rdfs:label "Person"@en;</TT>). 
+In this example, the best choice to reuse is the class <TT>foaf:Person</TT>. 
+In this specific example, it is important to note that, there exist an alignment between the classes of our two best ranks candidates. 
+Both ontologies, <I>FOAF</I> and <I>Schema.org</I>, contain <TT>owl:equivalentClass</TT> axioms that align this term <I>Person</I> respectively. 
+This means that regarding the semantic purpose of the design any of those classes can be reused. 
+Despite of this fact, we encourage the observations of all the mentioned criteria for reuse in order to have a clean and documented design of the ontology. 
+
+<P>
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html323"
+  HREF="node13.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html321"
+  HREF="node5.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html317"
+  HREF="node11.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html324"
+  HREF="node13.html">Vocabulary Structure</A>
+<B> Up:</B> <A NAME="tex2html322"
+  HREF="node5.html">Reuse</A>
+<B> Previous:</B> <A NAME="tex2html318"
+  HREF="node11.html">P-R6 Reuse of actual</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>

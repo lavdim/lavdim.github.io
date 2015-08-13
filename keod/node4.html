@@ -1,0 +1,244 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES</TITLE>
+<META NAME="description" CONTENT="COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES">
+<META NAME="keywords" CONTENT="paper">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="paper.css">
+
+<LINK REL="next" HREF="node51.html">
+<LINK REL="previous" HREF="node3.html">
+<LINK REL="up" HREF="paper.html">
+<LINK REL="next" HREF="node5.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<A NAME="tex2html192"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html190"
+  HREF="paper.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html184"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html193"
+  HREF="node5.html">Reuse</A>
+<B> Up:</B> <A NAME="tex2html191"
+  HREF="paper.html">Critical Aspects of Collaborative</A>
+<B> Previous:</B> <A NAME="tex2html185"
+  HREF="node3.html">ANALYSIS OF WIDELY USED</A>
+<BR>
+<BR>
+<!--End of Navigation Panel-->
+
+<H1><A NAME="SECTION00040000000000000000"></A>
+<A NAME="sec:best-practices"></A>
+<BR>
+COLLABORATIVE VOCABULARY DEVELOPMENT PRACTICES
+</H1>
+
+<P>
+In this section, we provide a comprehensive list of practices for collaborative vocabulary development.
+We derived this list from our own experience in creating vocabularies like SCORVoc<A NAME="tex2html33"
+  HREF="footnode.html#foot403"><SUP>5</SUP></A> and MobiVoc<A NAME="tex2html35"
+  HREF="footnode.html#foot405"><SUP>6</SUP></A> in combination with the results of the aforementioned analysis in sec:vocab-analysis.
+It will serve as guidelines that help to focus on the most important aspects of vocabulary creation process.
+Therefore, it is expected to increase the efficiency of the collaboration and to improve the overall quality of the vocabulary.
+For the sake of clarity, it should be kept in view that we consider vocabularies as lightweight ontologies.
+fig:phases depicts the main aspects of our approach, which are described in detail in the remainder of this section. 
+
+<P>
+However, it is worth mentioning that these guidelines are independent of the concrete development environment.
+They can be applied within various circumstance. 
+Nevertheless, we would like to encourage the adoption of a well-known distributed versioning control system as the basic collaboration support environment.
+In this regard, we have chosen <I>Git</I> due to the following two rationales.
+On the one hand, Git is a mature versioning control system supported by very sophisticated tools. 
+Therefore, it is broadly used in software development projects.
+More than 10 million repositories<A NAME="tex2html37"
+  HREF="footnode.html#foot407"><SUP>7</SUP></A> are hosted in GitHub for open source and commercial projects&nbsp;[<A
+ HREF="node53.html#kalliamvakou2015open">Kalliamvakou et&nbsp;al., 2015</A>].
+On the other hand, existing popular vocabularies like <I>schema.org</I><A NAME="tex2html39"
+  HREF="footnode.html#foot409"><SUP>8</SUP></A>, <I>Description of a Project</I> (DOAP)<A NAME="tex2html41"
+  HREF="footnode.html#foot412"><SUP>9</SUP></A>, the <I>music ontology</I><A NAME="tex2html43"
+  HREF="footnode.html#foot415"><SUP>10</SUP></A> also use GitHub to facilitate the collaboration of the respective communities. 
+This indicates that the vocabulary development community is already familiar with Git.
+
+<P>
+
+<DIV ALIGN="CENTER"><A NAME="fig:phases"></A><A NAME="147"></A>
+<TABLE>
+<CAPTION ALIGN="BOTTOM"><STRONG>Figure:</STRONG>
+Main aspects of Vocabulary Authoring.</CAPTION>
+<TR><TD>
+<DIV ALIGN="CENTER"><img src="images/aspects.png"/></DIV></TD></TR>
+</TABLE>
+</DIV>
+
+<P>
+<BR><HR>
+<!--Table of Child-Links-->
+<A NAME="CHILD_LINKS"><STRONG>Subsections</STRONG></A>
+
+<UL>
+<LI><A NAME="tex2html194"
+  HREF="node5.html">Reuse</A>
+<UL>
+<LI><A NAME="tex2html195"
+  HREF="node6.html">P-R1 Reuse of authoritative vocabularies</A>
+<LI><A NAME="tex2html196"
+  HREF="node7.html">P-R2 Reuse of non-authoritative vocabularies</A>
+<LI><A NAME="tex2html197"
+  HREF="node8.html">P-R3 Avoid semantic clashes</A>
+<LI><A NAME="tex2html198"
+  HREF="node9.html">P-R4 Individual resource reuse</A>
+<LI><A NAME="tex2html199"
+  HREF="node10.html">P-R5 Vocabulary module reuse</A>
+<LI><A NAME="tex2html200"
+  HREF="node11.html">P-R6 Reuse of actual resources</A>
+<LI><A NAME="tex2html201"
+  HREF="node12.html">P-R7 Establishing alignments with existing vocabularies</A>
+</UL>
+<BR>
+<LI><A NAME="tex2html202"
+  HREF="node13.html">Vocabulary Structure</A>
+<UL>
+<LI><A NAME="tex2html203"
+  HREF="node14.html">P-S1 One file for the whole vocabulary</A>
+<LI><A NAME="tex2html204"
+  HREF="node15.html">P-S2 Multiple files</A>
+<LI><A NAME="tex2html205"
+  HREF="node16.html">P-S3 Multiple files and folders</A>
+<LI><A NAME="tex2html206"
+  HREF="node17.html">P-S4 Separation of TBox and ABox</A>
+</UL>
+<BR>
+<LI><A NAME="tex2html207"
+  HREF="node18.html">Naming Conventions</A>
+<UL>
+<LI><A NAME="tex2html208"
+  HREF="node19.html">P-N1 Concepts as single nouns</A>
+<LI><A NAME="tex2html209"
+  HREF="node20.html">P-N2 Properties as verb senses</A>
+<LI><A NAME="tex2html210"
+  HREF="node21.html">P-N3 Short names</A>
+<LI><A NAME="tex2html211"
+  HREF="node22.html">P-N4 Logical and short names for namespaces</A>
+<LI><A NAME="tex2html212"
+  HREF="node23.html">P-N5 Regular space as word delimiters for labeling elements</A>
+<LI><A NAME="tex2html213"
+  HREF="node24.html">P-N6 Avoid the use of conjunctions and or words with ambiguous meanings</A>
+<LI><A NAME="tex2html214"
+  HREF="node25.html">P-N7 Use positive names</A>
+<LI><A NAME="tex2html215"
+  HREF="node26.html">P-N8 Respect the names for registered products and company names</A>
+<LI><A NAME="tex2html216"
+  HREF="node27.html">Dereferenceability</A>
+<UL>
+<LI><A NAME="tex2html217"
+  HREF="node28.html">P-D1 Use slash URIs</A>
+<LI><A NAME="tex2html218"
+  HREF="node29.html">P-D2 Use hash URIs</A>
+<LI><A NAME="tex2html219"
+  HREF="node30.html">P-D3 Use combination between slash and hash URIs</A>
+<LI><A NAME="tex2html220"
+  HREF="node31.html">P-D4 Configure server to provide content negotiation</A>
+</UL>
+</UL>
+<BR>
+<LI><A NAME="tex2html221"
+  HREF="node32.html">Multilinguality</A>
+<UL>
+<LI><A NAME="tex2html222"
+  HREF="node33.html">P-M1 Use English as the main language</A>
+<LI><A NAME="tex2html223"
+  HREF="node34.html">P-M2 Multilinguality for other languages</A>
+</UL>
+<BR>
+<LI><A NAME="tex2html224"
+  HREF="node35.html">Documentation</A>
+<UL>
+<LI><A NAME="tex2html225"
+  HREF="node36.html">P-Do1 Use of rdfs:label</A>
+<LI><A NAME="tex2html226"
+  HREF="node37.html">P-Do2 Use of rdfs:comment</A>
+<LI><A NAME="tex2html227"
+  HREF="node38.html">P-Do3 Generate human-readable documentation</A>
+</UL>
+<BR>
+<LI><A NAME="tex2html228"
+  HREF="node39.html">Validation</A>
+<UL>
+<LI><A NAME="tex2html229"
+  HREF="node40.html">P-V1 Syntax validation</A>
+<LI><A NAME="tex2html230"
+  HREF="node41.html">P-V2 Code-Smell checking</A>
+<LI><A NAME="tex2html231"
+  HREF="node42.html">P-V3 Consistency checking</A>
+<LI><A NAME="tex2html232"
+  HREF="node43.html">P-V4 Linked Data validation</A>
+</UL>
+<BR>
+<LI><A NAME="tex2html233"
+  HREF="node44.html">Authoring</A>
+<UL>
+<LI><A NAME="tex2html234"
+  HREF="node45.html">P-A1 Domain and range definitions for properties</A>
+<LI><A NAME="tex2html235"
+  HREF="node46.html">P-A2 Avoid inverse properties</A>
+<LI><A NAME="tex2html236"
+  HREF="node47.html">P-A3 Use of class disjointness</A>
+<LI><A NAME="tex2html237"
+  HREF="node48.html">Utilization of SKOS Vocabulary</A>
+<UL>
+<LI><A NAME="tex2html238"
+  HREF="node49.html">P-A4 Provide <TT>skos:prefLabel</TT> to complement the labeling of concepts</A>
+<LI><A NAME="tex2html239"
+  HREF="node50.html">P-A5 Use <TT>skos:altLabel</TT> to describe variations of the concept</A>
+</UL></UL></UL>
+<!--End of Table of Child-Links-->
+<HR>
+<!--Navigation Panel-->
+<A NAME="tex2html192"
+  HREF="node5.html">
+<IMG WIDTH="37" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="next"
+ SRC="file:/usr/local/share/lib/latex2html/icons/next.png"></A> 
+<A NAME="tex2html190"
+  HREF="paper.html">
+<IMG WIDTH="26" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="up"
+ SRC="file:/usr/local/share/lib/latex2html/icons/up.png"></A> 
+<A NAME="tex2html184"
+  HREF="node3.html">
+<IMG WIDTH="63" HEIGHT="24" ALIGN="BOTTOM" BORDER="0" ALT="previous"
+ SRC="file:/usr/local/share/lib/latex2html/icons/prev.png"></A>   
+<BR>
+<B> Next:</B> <A NAME="tex2html193"
+  HREF="node5.html">Reuse</A>
+<B> Up:</B> <A NAME="tex2html191"
+  HREF="paper.html">Critical Aspects of Collaborative</A>
+<B> Previous:</B> <A NAME="tex2html185"
+  HREF="node3.html">ANALYSIS OF WIDELY USED</A>
+<!--End of Navigation Panel-->
+<ADDRESS>
+lavdim
+2015-08-12
+</ADDRESS>
+</BODY>
+</HTML>
